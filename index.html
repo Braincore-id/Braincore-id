@@ -45,6 +45,18 @@
   <meta name="twitter:image" content="https://braincore.id/static/images/banner.png">
   <meta name="twitter:card" content="https://braincore.id/static/images/banner.png">
 
+  <!-- Dialogflow CSS -->
+  <style>
+    df-messenger {
+      --df-messenger-bot-message: #385586;
+      --df-messenger-button-titlebar-color: #385586;
+      --df-messenger-chat-background-color: #E3F0FF;
+      --df-messenger-font-color: white;
+      --df-messenger-send-icon: #385586;
+      --df-messenger-user-message: #258781;
+    }
+  </style>
+
 </head>
 
 <body>
@@ -411,9 +423,8 @@
               <a href="https://flask.palletsprojects.com/" target="_blank"> <img
                   src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="60"
                   height="60" /> </a>
-              <a href="https://www.tensorflow.org" target="_blank"> <img
-                  src="static/images/tensorflow.png" alt="tensorflow" width="60"
-                  height="60" /> </a>
+              <a href="https://www.tensorflow.org" target="_blank"> <img src="static/images/tensorflow.png"
+                  alt="tensorflow" width="60" height="60" /> </a>
               <a href="https://pytorch.org/" target="_blank"> <img
                   src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="60"
                   height="60" /> </a>
@@ -783,8 +794,6 @@
   </footer><!-- End Footer -->
 
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="static/vendor/aos/aos.js"></script>
@@ -797,6 +806,27 @@
 
   <!-- Template Main JS File -->
   <script src="static/js/about.js"></script>
+
+  <!-- Dialogflow -->
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <df-messenger chat-icon="https://raw.githubusercontent.com/algonacci/Free-CDN/main/TRAVBOT_FULL.png" chat-title="Zira"
+    agent-id="a609255f-e079-4780-91a6-2ad22d4a5e68" language-code="id"></df-messenger>
+  <script>
+    $(document).ready(function () {
+      window.addEventListener('dfMessengerLoaded', function (event) {
+        $r1 = document.querySelector("df-messenger");
+        $r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
+        $r3 = $r2.shadowRoot.querySelector("df-messenger-user-input"); //for other mods
+        var sheet = new CSSStyleSheet;
+        // manage box height from here
+        sheet.replaceSync(`div.chat-wrapper[opened="true"] { height: 440px }`);
+        $r2.shadowRoot.adoptedStyleSheets = [sheet];
+      });
+    });
+  </script>
+
 
 </body>
 
