@@ -1856,17 +1856,17 @@ section {
 /*--------------------------------------------------------------
 # Consultation Section
 --------------------------------------------------------------*/
-#consultation {
+#consultation_page {
   width: 100%;
   min-height: 100vh;
   background: #37517e;
 }
 
-#consultation .container {
+#consultation_page .container {
   padding-top: 72px;
 }
 
-#consultation h1 {
+#consultation_page h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 700;
@@ -1874,13 +1874,13 @@ section {
   color: #fff;
 }
 
-#consultation h2 {
+#consultation_page h2 {
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 50px;
   font-size: 24px;
 }
 
-#consultation .btn-get-started {
+#consultation_page .btn-get-started {
   font-family: "Jost", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -1894,11 +1894,11 @@ section {
   background: #47b2e4;
 }
 
-#consultation .btn-get-started:hover {
+#consultation_page .btn-get-started:hover {
   background: #209dd8;
 }
 
-#consultation .btn-watch-video {
+#consultation_page .btn-watch-video {
   font-size: 16px;
   display: flex;
   align-items: center;
@@ -1908,7 +1908,7 @@ section {
   line-height: 1;
 }
 
-#consultation .btn-watch-video i {
+#consultation_page .btn-watch-video i {
   line-height: 0;
   color: #fff;
   font-size: 32px;
@@ -1916,51 +1916,51 @@ section {
   margin-right: 8px;
 }
 
-#consultation .btn-watch-video:hover i {
+#consultation_page .btn-watch-video:hover i {
   color: #47b2e4;
 }
 
-#consultation .animated {
+#consultation_page .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
 @media (max-width: 991px) {
-  #consultation {
+  #consultation_page {
     height: 100vh;
     text-align: center;
   }
-  #consultation .animated {
+  #consultation_page .animated {
     -webkit-animation: none;
     animation: none;
   }
-  #consultation .consultation-img {
+  #consultation_page .consultation_page-img {
     text-align: center;
   }
-  #consultation .consultation-img img {
+  #consultation_page .consultation_page-img img {
     width: 50%;
   }
 }
 
 @media (max-width: 768px) {
-  #consultation h1 {
+  #consultation_page h1 {
     font-size: 28px;
     line-height: 36px;
   }
-  #consultation h2 {
+  #consultation_page h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
   }
-  #consultation .consultation-img img {
+  #consultation_page .consultation_page-img img {
     width: 70%;
   }
 }
 
 @media (max-width: 575px) {
-  #consultation .consultation-img img {
+  #consultation_page .consultation_page-img img {
     width: 80%;
   }
-  #consultation .btn-get-started {
+  #consultation_page .btn-get-started {
     font-size: 16px;
     padding: 10px 24px 11px 24px;
   }
