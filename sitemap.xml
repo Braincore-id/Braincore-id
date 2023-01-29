@@ -12,4 +12,10 @@
       <changefreq>daily</changefreq>
       <priority>1.00</priority>
    </url>
+   <url>
+      <loc>https://braincore.id/jasa-machine-learning</loc>
+      <lastmod>2022-12-31T12:00:00+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.00</priority>
+   </url>
 </urlset>
