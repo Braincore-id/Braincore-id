@@ -1983,3 +1983,32 @@ section {
     transform: translateY(-10px);
   }
 }
+
+#header-blog {
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 15px 0;
+}
+
+#header-blog.header-blog-scrolled,
+#header-blog.header-blog-inner-pages {
+  background: rgba(40, 58, 90, 0.9);
+}
+
+#header-blog .logo {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#header-blog .logo a {
+  color: #fff;
+}
+
+#header-blog .logo img {
+  max-height: 40px;
+}
