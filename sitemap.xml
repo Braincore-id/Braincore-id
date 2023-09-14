@@ -10,18 +10,36 @@
       <loc>https://braincore.id/consultation</loc>
       <lastmod>2022-12-31T12:00:00+00:00</lastmod>
       <changefreq>daily</changefreq>
-      <priority>1.00</priority>
+      <priority>0.9</priority>
    </url>
    <url>
       <loc>https://braincore.id/jasa-machine-learning</loc>
       <lastmod>2022-12-31T12:00:00+00:00</lastmod>
       <changefreq>daily</changefreq>
-      <priority>1.00</priority>
+      <priority>0.8</priority>
    </url>
    <url>
       <loc>https://braincore.id/jasa-pengembangan-iot</loc>
       <lastmod>2022-12-31T12:00:00+00:00</lastmod>
       <changefreq>daily</changefreq>
-      <priority>1.00</priority>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://braincore.id/blog</loc>
+      <lastmod>2022-12-31T12:00:00+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://braincore.id/blog/apa-itu-ai</loc>
+      <lastmod>2022-12-31T12:00:00+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://braincore.id/blog/pemanfaatan-machine-learning-dalam-marketing</loc>
+      <lastmod>2022-12-31T12:00:00+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
    </url>
 </urlset>
