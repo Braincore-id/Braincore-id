@@ -44,10 +44,7 @@
       if (!navbarlink.hash) return;
       let section = select(navbarlink.hash);
       if (!section) return;
-      if (
-        position >= section.offsetTop &&
-        position <= section.offsetTop + section.offsetHeight
-      ) {
+      if (position >= section.offsetTop && position <= section.offsetTop + section.offsetHeight) {
         navbarlink.classList.add("active");
       } else {
         navbarlink.classList.remove("active");
@@ -221,6 +218,37 @@
             filter: this.getAttribute("data-filter"),
           });
           portfolioIsotope.on("arrangeComplete", function () {
+            AOS.refresh();
+          });
+        },
+        true
+      );
+    }
+  });
+
+  window.addEventListener("load", () => {
+    let achievementsContainer = select(".achievements-container");
+    if (achievementsContainer) {
+      let achievementsIsotope = new Isotope(achievementsContainer, {
+        itemSelector: ".achievements-item",
+      });
+
+      let achievementsFilters = select("#achievements-flters li", true);
+
+      on(
+        "click",
+        "#achievements-flters li",
+        function (e) {
+          e.preventDefault();
+          achievementsFilters.forEach(function (el) {
+            el.classList.remove("filter-active");
+          });
+          this.classList.add("filter-active");
+
+          achievementsIsotope.arrange({
+            filter: this.getAttribute("data-filter"),
+          });
+          achievementsIsotope.on("arrangeComplete", function () {
             AOS.refresh();
           });
         },
