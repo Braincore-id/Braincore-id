@@ -1,1822 +1,1477 @@
 <!DOCTYPE html>
 <html lang="id">
-
-<head>
-  <!-- Google Tag Manager -->
-  <script>
-    (function (w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != "dataLayer" ? "&l=" + l : "";
-      j.async = true;
-      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-      f.parentNode.insertBefore(j, f);
-    })(window, document, "script", "dataLayer", "GTM-WGN3M4N");
-  </script>
-  <!-- End Google Tag Manager -->
-
-  <!-- Hotjar Tracking Code for https://braincore.id/ -->
-  <script>
-    (function (h, o, t, j, a, r) {
-      h.hj =
-        h.hj ||
-        function () {
-          (h.hj.q = h.hj.q || []).push(arguments);
-        };
-      h._hjSettings = { hjid: 3364683, hjsv: 6 };
-      a = o.getElementsByTagName("head")[0];
-      r = o.createElement("script");
-      r.async = 1;
-      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-      a.appendChild(r);
-    })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
-  </script>
-
-  <meta charset="utf-8" />
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-
-  <title>Braincore.id - Konsultasi AI</title>
-
-  <!-- Favicons -->
-  <link href="static/images/favicon.png" rel="icon" />
-
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet" />
-
-  <!-- Vendor CSS Files -->
-  <link href="static/vendor/aos/aos.css" rel="stylesheet" />
-  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-  <link href="static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-  <link href="static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
-  <link href="static/vendor/remixicon/remixicon.css" rel="stylesheet" />
-  <link href="static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-
-  <!-- Template Main CSS File -->
-  <link href="static/css/about.css" rel="stylesheet" />
-  <link href="static/css/achievements.css" rel="stylesheet" />
-
-  <!-- Canonical -->
-  <link rel="canonical" href="https://braincore.id/" />
-
-  <!-- Meta Robot -->
-  <meta name="robots" content="index, follow" />
-
-  <!-- Meta Keywords -->
-  <meta name="keywords"
-    content="Proyek Data science, Machine Learning, Computer Vision, Natural Language Processing, Konsultasi Proyek AI" />
-
-  <!-- Primary Meta Tags -->
-  <title>Braincore - Jasa Konsultasi dan Pengerjaan Proyek AI</title>
-  <meta name="title" content="Braincore - Jasa Konsultasi dan Pengerjaan Proyek AI" />
-  <meta name="description"
-    content="Jasa konsultasi dan pengerjaan proyek data science, machine learning, dan artificial intelligence untuk pelajar dan pekerja profesional" />
-
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://braincore.id/" />
-  <meta property="og:title" content="Braincore - Jasa Konsultasi dan Pengerjaan Proyek AI" />
-  <meta property="og:description"
-    content="Jasa konsultasi dan pengerjaan proyek data science, machine learning, dan artificial intelligence untuk pelajar dan pekerja profesional" />
-  <meta property="og:image" content="https://braincore.id/static/images/banner.png" />
-
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://braincore.id/" />
-  <meta property="twitter:title" content="Braincore - Jasa Konsultasi dan Pengerjaan Proyek AI" />
-  <meta property="twitter:description"
-    content="Jasa konsultasi dan pengerjaan proyek data science, machine learning, dan artificial intelligence untuk pelajar dan pekerja profesional" />
-  <meta property="twitter:image" content="https://braincore.id/static/images/banner.png" />
-
-  <!-- Dialogflow CSS -->
-  <style>
-    df-messenger {
-      --df-messenger-bot-message: #385586;
-      --df-messenger-button-titlebar-color: #385586;
-      --df-messenger-chat-background-color: #e3f0ff;
-      --df-messenger-font-color: white;
-      --df-messenger-send-icon: #385586;
-      --df-messenger-user-message: #258781;
-    }
-  </style>
-</head>
-
-<body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WGN3M4N" height="0" width="0"
-      style="display: none; visibility: hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center">
-      <a href="/index.html"><img style="margin-right: 0.75rem; width: 45px" src="static/images/braincore.png"
-          alt="Braincore" /></a>
-      <h2 class="logo me-auto"><a href="#">Braincore.id</a></h2>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li>
-            <a class="nav-link scrollto active" href="#hero">Beranda</a>
-          </li>
-          <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
-          <li><a class="nav-link scrollto" href="#services">Layanan</a></li>
-          <li>
-            <a class="nav-link scrollto" href="#portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a class="nav-link scrollto" href="https://braincore.id/consultation" target="_blank">Konsultasi</a>
-          </li>
-          <li><a class="nav-link scrollto" href="#team">Tim</a></li>
-          <li>
-            <a class="nav-link scrollto" href="#achievements">Pencapaian</a>
-          </li>
-
-          <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
-          <li><a class="nav-link scrollto" href="/blog.html">Blog</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
-      <!-- .navbar -->
-    </div>
-  </header>
-  <!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
-          data-aos="fade-up" data-aos-delay="200">
-          <h1>Jasa Konsultasi dan Pengerjaan Proyek AI</h1>
-          <h2>
-            Data Science, Machine Learning, dan Artificial Intelligence untuk
-            pelajar dan pekerja profesional.
-          </h2>
-          <div class="d-flex justify-content-center justify-content-lg-start">
-            <a href="#about" class="btn-get-started scrollto">Mulai Cari Tahu</a>
-          </div>
-        </div>
-        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-          <img src="static/images/hero-img.png" class="img-fluid animated" alt="Konsultasi AI" />
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Hero -->
-
-  <main id="main">
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients section-bg">
-      <div class="container">
-        <div class="section-title">
-          <h2>Client & Mitra Kami</h2>
-          <p>Beberapa klien dan mitra kami</p>
-        </div>
-        <div class="row" data-aos="zoom-in">
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
-            <img src="static/images/clients/logo-bangkit.svg" class="img-fluid" alt="Bangkit">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
-            <img src="static/images/clients/itts.png" class="img-fluid" alt="ITTS">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
-            <img src="static/images/clients/ittp.webp" class="img-fluid" alt="ITTP">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
-            <img src="static/images/clients/ugm.png" class="img-fluid" alt="UGM" width="100">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
-            <img src="static/images/clients/dinkes.webp" class="img-fluid" alt="Dinkes DKI" width="100">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
-            <img src="static/images/clients/indmira.svg" class="img-fluid" alt="Indmira">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
-            <img src="static/images/clients/uii.png" class="img-fluid" alt="UII" width="200">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
-            <img src="static/images/clients/ithb.png" class="img-fluid" alt="ITHB" width="200">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
-            <img src="static/images/clients/ui.png" class="img-fluid" alt="UI" width="100">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
-            <img src="static/images/clients/itb.png" class="img-fluid" alt="ITB" width="100">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
-            <img src="static/images/clients/ub.png" class="img-fluid" alt="UB" width="100">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
-            <img src="static/images/clients/pnj.png" class="img-fluid" alt="PNJ" width="100">
-          </div>
-
-
-          <!-- Tombol Lihat Lebih Banyak -->
-          <div class="col-lg-12 text-center pt-5">
-            <a href="#?" class="btn-learn-more">Dan Masih Banyak Lagi</a>
-          </div>
-
-        </div>
-      </div>
-    </section>
-    <!-- End Cliens Section -->
-
-
-    <!-- ======= About Us Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>Tentang Braincore.id</h2>
-        </div>
-
-        <div class="row content">
-          <div class="col-lg-6 pt-4 pt-lg-0">
-            <h3>Latar Belakang</h3>
-            <p class="mt-3">
-              Braincore.id dibentuk karena kami sadar bahwa implementasi
-              teknologi kecerdasan buatan di Indonesia masih sangat minim
-              meskipun hampir semua orang menggunakan gadget seperti
-              handphone. <br />
-              <br />
-              Braincore.id hadir untuk menawarkan solusi berupa jasa
-              konsultasi dan pengerjaan proyek berbasis kecerdasan buatan
-              dalam berbagai bidang khususnya pada bidang edukasi.
-            </p>
-            <br />
-          </div>
-          <div class="col-lg-6">
-            <p>
-              Visi kami adalah mempersiapkan masyarakat memasuki era revolusi
-              industri digital dan mengenalkan teknologi kecerdasan buatan
-              kepada masyarakat luas. Misi kami adalah:
-            </p>
-            <ul>
-              <li>
-                <i class="ri-check-double-line"></i> Membuat produk kecerdasan
-                buatan dengan rasa tanggung jawab yang mampu bersaing di dunia
-                teknologi.
-              </li>
-              <li>
-                <i class="ri-check-double-line"></i> Mengedukasi masyarakat
-                tentang penggunaan teknologi kecerdasan buatan dalam kehidupan
-                sehari-hari.
-              </li>
-
-              <br />
-              <a href="#" class="btn-learn-more">Pelajari Lebih Lanjut</a>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End About Us Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>Layanan</h2>
-          <p>
-            Braincore.id menawarkan berbagai layanan yang dapat membantu
-            masyarakat umum dalam manfaat Kecerdasan Buatan dalam berbagai
-            bidang terutama pada bidang edukasi.
-          </p>
-        </div>
-
-        <div class="row justify-content-between">
-          <div class="col-lg-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic">
-                <img src="static/images/classification.png" class="img-fluid"
-                  alt="Klasifikasi KNN Python Scikit Learn Sklearn" />
-              </div>
-              <div class="member-info">
-                <h5>Classification</h5>
-                <p>
-                  Klasifikasi data menggunakan beberapa teknik pembelajaran
-                  mesin
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic">
-                <img src="static/images/forecasting.png" class="img-fluid" alt="Forecasting peramalan dengan ARIMA" />
-              </div>
-              <div class="member-info">
-                <h5>Forecasting</h5>
-                <p>Analisis data deret waktu menggunakan metode ARIMA</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic">
-                <img src="static/images/clustering.png" class="img-fluid"
-                  alt="Clustering klasterisasi menggunakan K-Means" />
-              </div>
-              <div class="member-info">
-                <h5>Clustering</h5>
-                <p>
-                  Klasterisasi data numerik dan kategorik dengan beberapa
-                  metode Clustering
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic">
-                <img src="static/images/data-mining.png" class="img-fluid" alt="Data mining, teknik pengumpulan data" />
-              </div>
-              <div class="member-info">
-                <h5>Data Mining</h5>
-                <p>Proses data collection untuk pemodelan machine learning</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic">
-                <img src="static/images/statistics.png" class="img-fluid"
-                  alt="Teknik statistika dalam machine learning" />
-              </div>
-              <div class="member-info">
-                <h5>Statistika</h5>
-                <p>
-                  Pengolahan data untuk berbagai keperluan analisis dengan
-                  pendekatan Statistika
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic">
-                <img src="static/images/text-mining.png" class="img-fluid"
-                  alt="Pengumpulan, pemrosesan, dan pengolahan data teks text corpus untuk NLP" />
-              </div>
-              <div class="member-info">
-                <h5>Text Mining</h5>
-                <p>
-                  Penngumpulan data corpus untuk keperluan penelitian di
-                  bidang NLP
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic">
-                <img src="static/images/face-recognition.png" class="img-fluid"
-                  alt="Sistem pengenalan wajah untuk presensi" />
-              </div>
-              <div class="member-info">
-                <h5>Face Recognition</h5>
-                <p>Sistem deteksi wajah untuk berbagai keperluan</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic">
-                <img src="static/images/object-counting.png" class="img-fluid"
-                  alt="Penghitung jumlah objek dengan deteksi objek" />
-              </div>
-              <div class="member-info">
-                <h5>Objects Counting</h5>
-                <p>Algoritma penghitung jumlah objek</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic">
-                <img src="static/images/ocr.png" class="img-fluid"
-                  alt="Pengenalan karakter dalam dokumen berupa gambar" />
-              </div>
-              <div class="member-info">
-                <h5>Optical Character Recognition</h5>
-                <p>Ekstraksi dokumen berupa KTP, Curriculum Vitae, dll</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic">
-                <img src="static/images/object-detection.png" class="img-fluid"
-                  alt="Deteksi objek dengan menggunakan custom dataset" />
-              </div>
-              <div class="member-info">
-                <h5>Object Detection</h5>
-                <p>
-                  Deteksi object dengan menggunakan arsitektur Deep Learning
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic">
-                <img src="static/images/image-classification.png" class="img-fluid"
-                  alt="Klasifikasi gambar menggunakan deep learning dalam beberapa kelas" />
-              </div>
-              <div class="member-info">
-                <h5>Image Classification</h5>
-                <p>
-                  Klasifikasi gambar menggunakan data yang sudah disediakan
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic">
-                <img src="static/images/natural-language-processing.png" class="img-fluid"
-                  alt="Pemrosesan bahasa natural dengan menggunakan deep learning" />
-              </div>
-              <div class="member-info">
-                <h5>Natural Language Processing</h5>
-                <p>Sistem pembelajaran mesin dengan pendekatan linguistik</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic">
-                <img src="static/images/embedded_system.png" class="img-fluid"
-                  alt="Sistem tertanam menggunakan Raspberry Pi, Arduino, ESP8266, ESP32, ESP" />
-              </div>
-              <div class="member-info">
-                <h5>Embedded System</h5>
-                <p>
-                  Pembuatan sistem tertanam dengan Arduino dan Raspberry Pi
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic">
-                <img src="static/images/iot.png" class="img-fluid" alt="Pengembangan alat dan program berbasis IoT" />
-              </div>
-              <div class="member-info">
-                <h5>Internet of Things</h5>
-                <p>Pengembangan alat dan program berbasis IoT</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic">
-                <img src="static/images/robotics.png" class="img-fluid"
-                  alt="Pengerjaan proyek rancang bangun sistem robot skala industri" />
-              </div>
-              <div class="member-info">
-                <h5>Robotika</h5>
-                <p>Rancang bangun sistem robot untuk berbagai keperluan</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic">
-                <img src="static/images/software_engineering.png" class="img-fluid"
-                  alt="Pembuatan sistem perangkat lunak software frontend backend" />
-              </div>
-              <div class="member-info">
-                <h5>Software Engineering</h5>
-                <p>Rancang bangun sistem perangkat lunak</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic">
-                <img src="static/images/bootcamp.png" class="img-fluid"
-                  alt="Tempat bootcamp belajar data science dan machine learning" />
-              </div>
-              <div class="member-info">
-                <h5>Bootcamp</h5>
-                <p>Belajar coding secara intensif selama 4 minggu</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic">
-                <img src="static/images/blockchain.png" class="img-fluid"
-                  alt="Pembuatan blockchain, token, coin, smart contracts" />
-              </div>
-              <div class="member-info">
-                <h5>Blockchain</h5>
-                <p>Implementasi smart contract dalam berbagai studi kasus</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-12 text-center">
-            <a href="#consultation" class="btn-learn-more">Dan Masih Banyak Lagi</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Services Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>Portfolio</h2>
-        </div>
-
-        <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-          <li data-filter="*" class="filter-active">All</li>
-          <li data-filter=".filter-blockchain">Blockchain</li>
-          <li data-filter=".filter-ai">AI</li>
-          <li data-filter=".filter-iot">IoT</li>
-        </ul>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-lg-4 col-md-6 portfolio-item filter-ai filter-iot">
-            <div class="portfolio-img">
-              <img src="static/images/portfolio/portfolio_2.png" class="img-fluid" alt="Door Lock Arduino" />
-            </div>
-            <div class="portfolio-info">
-              <h4>
-                Door Lock System <br />
-                by Face Recognition
-              </h4>
-              <p>Embedded System</p>
-              <a href="static/images/portfolio/portfolio_2.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Door Lock System by Face Recognition"><i
-                  class="bx bx-plus"></i></a>
-              <a href="portfolio/door-lock-system-using-face-recognition.html" class="details-link"
-                title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-ai">
-            <div class="portfolio-img">
-              <img src="static/images/portfolio/portfolio_1.png" class="img-fluid" alt="Face recognition" />
-            </div>
-            <div class="portfolio-info">
-              <h4>
-                Face Recognition <br />
-                Attendance System
-              </h4>
-              <p>AI</p>
-              <a href="static/images/portfolio/portfolio_1.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Face Recognition Attendance System"><i
-                  class="bx bx-plus"></i></a>
-              <a href="portfolio/face-recognition-attendance-system.html" class="details-link" title="More Details"><i
-                  class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-iot">
-            <div class="portfolio-img">
-              <img src="static/images/portfolio/portfolio_3.png" class="img-fluid" alt="Midi Controller" />
-            </div>
-            <div class="portfolio-info">
-              <h4>
-                Custom Midi Controller <br />
-                Using Arduino
-              </h4>
-              <p>Embedded System</p>
-              <a href="static/images/portfolio/portfolio_3.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Custom Midi Controller Using Arduino"><i
-                  class="bx bx-plus"></i></a>
-              <a href="portfolio/custom-midi-controller.html" class="details-link" title="More Details"><i
-                  class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-ai">
-            <div class="portfolio-img">
-              <img src="static/images/portfolio/portfolio_terrafarms.png" class="img-fluid"
-                alt="Plant Diseases Detection" />
-            </div>
-            <div class="portfolio-info">
-              <h4>
-                Plant Diseases <br />
-                Detection
-              </h4>
-              <p>AI</p>
-              <a href="static/images/portfolio/portfolio_terrafarms.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Plant Diseases Detection"><i class="bx bx-plus"></i></a>
-              <a href="https://play.google.com/store/apps/details?id=com.terrafarms.terrafarms" target="_blank"
-                class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-iot">
-            <div class="portfolio-img">
-              <img src="static/images/portfolio/portfolio_iot_terrafarms.png" class="img-fluid"
-                alt="Agriculture IoT Kit" />
-            </div>
-            <div class="portfolio-info">
-              <h4>
-                IoT Kit <br />
-                Agriculture
-              </h4>
-              <p>IoT</p>
-              <a href="static/images/portfolio/portfolio_iot_terrafarms.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Agriculture IoT Kit For Terrafarms"><i
-                  class="bx bx-plus"></i></a>
-              <a href="https://terrafarms.id" target="_blank" class="details-link" title="More Details"><i
-                  class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-ai">
-            <div class="portfolio-img">
-              <img src="static/images/portfolio/portfolio_soil_detection.png" class="img-fluid" alt="Soil Detection" />
-            </div>
-            <div class="portfolio-info">
-              <h4>
-                Soil Detection
-              </h4>
-              <p>AI</p>
-              <a href="static/images/portfolio/portfolio_iot_terrafarms.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Soil Detection For Terrafarms"><i
-                  class="bx bx-plus"></i></a>
-              <a href="https://play.google.com/store/apps/details?id=com.terrafarms.terrafarms" target="_blank"
-                class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-ai">
-            <div class="portfolio-img">
-              <img src="static/images/portfolio/portfolio_water_meter.png" class="img-fluid" alt="Water Meter OCR" />
-            </div>
-            <div class="portfolio-info">
-              <h4>
-                Water Meter <br />
-                Dashboard
-              </h4>
-              <p>AI</p>
-              <a href="static/images/portfolio/portfolio_water_meter.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Water Mater Dashboard Using OCR"><i
-                  class="bx bx-plus"></i></a>
-              <a href="portfolio/water-meter-dashboard.html" class="details-link" title="More Details"><i
-                  class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-ai">
-            <div class="portfolio-img">
-              <img src="static/images/portfolio/portfolio_cv_class.png" class="img-fluid"
-                alt="Computer Vision Class Final Project" />
-            </div>
-            <div class="portfolio-info">
-              <h4>
-                Computer Vision <br />
-                Class Final Project
-              </h4>
-              <p>Bootcamp</p>
-              <a href="static/images/portfolio/portfolio_cv_class.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Computer Vision Class Final Project"><i
-                  class="bx bx-plus"></i></a>
-              <a href="portfolio/computer-vision-class-final-project.html" target="_blank" class="details-link"
-                title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-ai">
-            <div class="portfolio-img">
-              <img src="static/images/portfolio/portfolio_endapan_tambak_udang.png" class="img-fluid"
-                alt="Monitoring Endapan Tambak Udang" />
-            </div>
-            <div class="portfolio-info">
-              <h4>
-                Monitoring Endapan <br />
-                Tambak Udang
-              </h4>
-              <p>AI</p>
-              <a href="static/images/portfolio/portfolio_endapan_tambak_udang.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Monitoring Endapan Tambak Udang"><i
-                  class="bx bx-plus"></i></a>
-              <a href="portfolio/monitoring-endapan-tambak-udang.html" class="details-link" title="More Details"><i
-                  class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-ai">
-            <div class="portfolio-img">
-              <img src="static/images/portfolio/portfolio_orange_diseases.png" class="img-fluid"
-                alt="Orange diseases classification" />
-            </div>
-            <div class="portfolio-info">
-              <h4>
-                Orange Diseases <br />
-                Classification
-              </h4>
-              <p>AI</p>
-              <a href="static/images/portfolio/portfolio_orange_diseases.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Orange diseases classification"><i
-                  class="bx bx-plus"></i></a>
-              <a href="portfolio/orange-diseases-classification.html" class="details-link" title="More Details"><i
-                  class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-ai">
-            <div class="portfolio-img">
-              <img src="static/images/portfolio/portfolio_landmark_detection.png" class="img-fluid"
-                alt="Landmark Detection" />
-            </div>
-            <div class="portfolio-info">
-              <h4>
-                Landmark Detection
-              </h4>
-              <p>AI</p>
-              <a href="static/images/portfolio/portfolio_landmark_detection.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Landmark Detection"><i class="bx bx-plus"></i></a>
-              <a href="portfolio/landmark-detection.html" class="details-link" title="More Details"><i
-                  class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-ai">
-            <div class="portfolio-img">
-              <img src="static/images/portfolio/portfolio_travens_ai.png" class="img-fluid" alt="Travens AI" />
-            </div>
-            <div class="portfolio-info">
-              <h4>
-                Travens AI
-              </h4>
-              <p>AI</p>
-              <a href="static/images/portfolio/portfolio_travens_ai.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Travens AI"><i class="bx bx-plus"></i></a>
-              <a href="portfolio/travens-ai.html" class="details-link" title="More Details"><i
-                  class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-    <!-- End Portfolio Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>Teknologi</h2>
-          <p>
-            Braincore.id fokus menggunakan teknologi terbaru dalam melakukan
-            rancang bangun sistem cerdas, berikut adalah teknologi yang kami
-            gunakan.
-          </p>
-        </div>
-
-        <div class="row justify-content-between">
-          <div class="row">
-            <p align="center">
-              <a href="https://www.arduino.cc" target="_blank">
-                <img src="static/images/mqtt.png" alt="MQTT" />
-              </a>
-              <a href="https://www.arduino.cc/" target="_blank">
-                <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="60" height="60" />
-              </a>
-              <a href="https://www.raspberrypi.org/" target="_blank">
-                <img src="static/images/raspi.jpeg" alt="Raspi Raspberry Pi" width="80" height="70" /></a>
-              <a href="http://esp32.net/" target="_blank">
-                <img src="static/images/esp32.jpg" alt="ESP32" width="60" height="60" />
-              </a>
-              <a href="https://www.esp8266.com/" target="_blank">
-                <img src="static/images/esp8266.png" alt="ESP8266" width="100" height="40" />
-              </a>
-              <a href="https://www.arduino.cc/" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++" width="60"
-                  height="60" />
-              </a>
-              <a href="https://nodejs.org/en/" target="_blank">
-                <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" alt="NodeJS" width="60"
-                  height="60" /></a>
-              <a href="https://reactjs.org/" target="_blank">
-                <img src="static/images/react.png" alt="React.js" width="70" height="60" /></a>
-              <a href="https://flutter.dev/" target="_blank">
-                <img src="https://cdn.worldvectorlogo.com/logos/flutter-logo.svg" alt="Flutter" width="60"
-                  height="60" /></a>
-              <a href="https://laravel.com/" target="_blank">
-                <img src="static/images/Laravel.svg" alt="Laravel" width="60" height="60" /></a>
-              <a href="https://gin-gonic.com/" target="_blank">
-                <img src="https://raw.githubusercontent.com/gin-gonic/logo/master/color.png" alt="Gin Gonic" width="60"
-                  height="75" /></a>
-              <a href="https://www.mysql.com/" target="_blank">
-                <img src="https://www.vectorlogo.zone/logos/mysql/mysql-ar21.svg" alt="MySQL" width="100"
-                  height="100" /></a>
-              <a href="https://www.postgresql.org/" target="_blank">
-                <img src="https://cdn.worldvectorlogo.com/logos/postgresql.svg" alt="PostgreSQL" width="60"
-                  height="60" /></a>
-              <a href="https://www.mongodb.com/" target="_blank">
-                <img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" alt="MongoDB" width="60"
-                  height="60" /></a>
-              <a href="https://docs.soliditylang.org/en/v0.8.17/" target="_blank">
-                <img src="https://cdn.worldvectorlogo.com/logos/solidity.svg" alt="Solidity" width="60"
-                  height="60" /></a>
-              <br />
-              <a href="https://www.python.org" target="_blank">
-                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
-                  alt="python" width="60" height="60" /></a>
-              <a href="https://opencv.org/" target="_blank">
-                <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="60"
-                  height="60" />
-              </a>
-              <a href="https://streamlit.io/" target="_blank">
-                <img src="static/images/streamlit.png" alt="flask" width="100" height="80" />
-              </a>
-              <a href="https://flask.palletsprojects.com/" target="_blank">
-                <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="60"
-                  height="60" />
-              </a>
-              <a href="https://www.tensorflow.org" target="_blank">
-                <img src="static/images/tensorflow.png" alt="tensorflow" width="60" height="60" />
-              </a>
-              <a href="https://pytorch.org/" target="_blank">
-                <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="60"
-                  height="60" />
-              </a>
-              <a href="https://scikit-learn.org/" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg"
-                  alt="scikit_learn" width="60" height="60" />
-              </a>
-              <a href="https://huggingface.co/" target="_blank">
-                <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="hugging_face"
-                  width="60" height="60" />
-              </a>
-              <a href="https://fastapi.tiangolo.com/" target="_blank">
-                <img src="https://seeklogo.com/images/F/fastapi-logo-541BAA112F-seeklogo.com.png" alt="fast_api"
-                  width="60" height="60" />
-              </a>
-              <a href="https://cloud.google.com/" target="_blank">
-                <img src="https://seeklogo.com/images/G/google-cloud-logo-ADE788217F-seeklogo.com.png" alt="gcp"
-                  width="50" height="40" />
-              </a>
-              <a href="https://aws.amazon.com/" target="_blank">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
-                  alt="aws" width="60" height="60" />
-              </a>
-            </p>
-          </div>
-
-          <div class="col-lg-12 text-center">
-            <a href="#consultation" class="btn-learn-more">Dan Masih Banyak Lagi</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Services Section -->
-
-    <!-- ======= Cta Section ======= -->
-    <section id="consultation" class="cta">
-      <div class="container" data-aos="zoom-in">
-        <div class="row">
-          <div class="col-lg-9 text-center text-lg-start">
-            <h3>Belum menemukan yang kamu inginkan?</h3>
-            <p>
-              Kamu bisa berkonsultasi dengan kami perihal proyek yang ingin
-              dikerjakan.
-            </p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" target="_blank" href="https://braincore.id/consultation">
-              <!-- href="https://api.whatsapp.com/send?phone=6282125609413&text=Halo,%20dengan%20Admin%20Braincore.id?" -->
-              <i class="bi bi-search"></i> Konsultasi disini
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Cta Section -->
-
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team section-bg">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>Team</h2>
-          <p>
-            Dalam perkembangan Braincore.id, ada tim hebat yang berisikan
-            orang-orang luar biasa yang ahli di bidangnya masing-masing dan
-            saling bekerja sama dalam pengembangan Braincore.id
-          </p>
-        </div>
-
-        <div class="row pt-2">
-          <div class="col-lg-6 pt-2">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic">
-                <img src="static/images/team/eric.png" class="img-fluid" alt="Eric Julianto" />
-              </div>
-              <div class="member-info">
-                <h4>Eric Julianto</h4>
-                <span>Research Analyst</span>
-                <p>Area of interest:</p>
-                <p>Artificial Intelligence, Blockchain, Internet of Things</p>
-                <div class="social">
-                  <a href="https://twitter.com/algonacci" target="_blank"><i class="ri-twitter-fill"></i></a>
-                  <a href="https://algonacci.github.io/" target="_blank"><i class="ri-facebook-fill"></i></a>
-                  <a href="https://instagram.com/eric.juliantooo"><i class="ri-instagram-fill"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 pt-2">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic">
-                <img src="static/images/team/jack.png" class="img-fluid" alt="Jack Alifio Wibisono" />
-              </div>
-              <div class="member-info">
-                <h4>Alifio Wibisono</h4>
-                <span>Marketing Officer</span>
-                <p>Area of interest:</p>
-                <p>Digital Marketing, Graphic Design, DevOps</p>
-                <div class="social">
-                  <a href="#" target="_blank"><i class="ri-twitter-fill"></i></a>
-                  <a href="#" target="_blank"><i class="ri-facebook-fill"></i></a>
-                  <a href="#"><i class="ri-instagram-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/alifio"> <i class="ri-linkedin-box-fill"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row pt-2">
-          <div class="col-lg-6 pt-2">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-              <div class="pic">
-                <img src="static/images/team/nad.jpg" class="img-fluid" alt="Nadea Putri" />
-              </div>
-              <div class="member-info">
-                <h4>Nadea Putri</h4>
-                <span>Data Scientist</span>
-                <p>Area of interest:</p>
-                <p>Artificial Intelligence, Data Science, Machine Learning</p>
-                <div class="social">
-                  <a href="#"><i class="ri-twitter-fill"></i></a>
-                  <a href="#"><i class="ri-facebook-fill"></i></a>
-                  <a href="#"><i class="ri-instagram-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/nadeaputrinf/" target="_blank">
-                    <i class="ri-linkedin-box-fill"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 pt-2">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-              <div class="pic">
-                <img src="static/images/team/apis.jpeg" class="img-fluid" alt="Apis Alfizdiana" />
-              </div>
-              <div class="member-info">
-                <h4>Alfizdiana Sholikhah</h4>
-                <span>Project Manager</span>
-                <p>Area of interest:</p>
-                <p>Project Management, Business Development, DevOps</p>
-                <div class="social">
-                  <a href="#"><i class="ri-twitter-fill"></i></a>
-                  <a href="#"><i class="ri-facebook-fill"></i></a>
-                  <a href="#"><i class="ri-instagram-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/alfizdiana-sholikhah-7a06a3222/" target="_blank">
-                    <i class="ri-linkedin-box-fill"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row pt-2">
-          <div class="col-lg-6 pt-2">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
-              <div class="pic">
-                <img src="static/images/team/thesi.jpg" class="img-fluid" alt="Thesion Marta Sianipar" />
-              </div>
-              <div class="member-info">
-                <h4>Thesion Marta Sianipar</h4>
-                <span>Data Scientist</span>
-                <p>Area of interest:</p>
-                <p>Artificial Intelligence, Data Science, Statistical Analysis</p>
-                <div class="social">
-                  <a href="#" target="_blank"><i class="ri-twitter-fill"></i></a>
-                  <a href="#" target="_blank"><i class="ri-facebook-fill"></i></a>
-                  <a href="#"><i class="ri-instagram-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/thesionmartasianipar" target="_blank"> <i
-                      class="ri-linkedin-box-fill"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 pt-2">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
-              <div class="pic">
-                <img src="static/images/team/fanisa.jpeg" class="img-fluid" alt="Fanisa Nimastiti" />
-              </div>
-              <div class="member-info">
-                <h4>Fanisa Nimastiti</h4>
-                <span>Data Scientist</span>
-                <p>Area of interest:</p>
-                <p>Artificial Intelligence, Data Science, SNA</p>
-                <div class="social">
-                  <a href="#"><i class="ri-twitter-fill"></i></a>
-                  <a href="#"><i class="ri-facebook-fill"></i></a>
-                  <a href="#"><i class="ri-instagram-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/fanisa-nimastiti-805404164" target="_blank">
-                    <i class="ri-linkedin-box-fill"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row pt-2">
-          <div class="col-lg-6 pt-2">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-              <div class="pic">
-                <img src="static/images/team/safrizal.jpeg" class="img-fluid" alt="Safrizal Ardana Ardiyansa" />
-              </div>
-              <div class="member-info">
-                <h4>Safrizal Ardana Ardiyansa</h4>
-                <span>Research Scientist</span>
-                <p>Area of interest:</p>
-                <p>Mathematics, Data Pre-processing & Modeling, Research</p>
-                <div class="social">
-                  <a href="#" target="_blank"><i class="ri-twitter-fill"></i></a>
-                  <a href="#" target="_blank"><i class="ri-facebook-fill"></i></a>
-                  <a href="#"><i class="ri-instagram-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/safrizal" target="_blank"> <i class="ri-linkedin-box-fill"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 pt-2">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-              <div class="pic">
-                <img src="static/images/team/jemmy.jpeg" class="img-fluid" alt="Jemmy Febryan" />
-              </div>
-              <div class="member-info">
-                <h4>Jemmy Febryan</h4>
-                <span>Data Scientist</span>
-                <p>Area of interest:</p>
-                <p>Business Analytics, HR Analytics, Natural Language Processing</p>
-                <div class="social">
-                  <a href="#"><i class="ri-twitter-fill"></i></a>
-                  <a href="#"><i class="ri-facebook-fill"></i></a>
-                  <a href="#"><i class="ri-instagram-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/jemmyfebryan" target="_blank">
-                    <i class="ri-linkedin-box-fill"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row pt-2">
-          <div class="col-lg-6 pt-2">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="500">
-              <div class="pic">
-                <img src="static/images/team/abdi.png" class="img-fluid" alt="Abdi Negara Guci" />
-              </div>
-              <div class="member-info">
-                <h4>Abdi Negara Guci</h4>
-                <span>Data Scientist</span>
-                <p>Area of interest:</p>
-                <p>Artificial Intelligence, Data Analytics, Computer Vision</p>
-                <div class="social">
-                  <a href="#" target="_blank"><i class="ri-twitter-fill"></i></a>
-                  <a href="#" target="_blank"><i class="ri-facebook-fill"></i></a>
-                  <a href="#"><i class="ri-instagram-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/abdi-negara-guci-24b98b233" target="_blank"> <i
-                      class="ri-linkedin-box-fill"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 pt-2">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="600">
-              <div class="pic">
-                <img src="static/images/team/dian.jpeg" class="img-fluid" alt="Dian Alhusari" />
-              </div>
-              <div class="member-info">
-                <h4>Dian Alhusari</h4>
-                <span>Machine Learning Engineer</span>
-                <p>Area of interest:</p>
-                <p>Artificial Intelligence, Data Analytics, Machine Learning</p>
-                <div class="social">
-                  <a href="#"><i class="ri-twitter-fill"></i></a>
-                  <a href="#"><i class="ri-facebook-fill"></i></a>
-                  <a href="#"><i class="ri-instagram-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/dian-alhusari-2500b71b6" target="_blank">
-                    <i class="ri-linkedin-box-fill"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row pt-2">
-          <div class="col-lg-6 pt-2">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="600">
-              <div class="pic">
-                <img src="static/images/team/sadri.png" class="img-fluid" alt="Andi Sadri Agung" />
-              </div>
-              <div class="member-info">
-                <h4>Andi Sadri Agung</h4>
-                <span>Research Scientist</span>
-                <p>Area of interest:</p>
-                <p>Artificial Intelligence, Data Science, Research Process</p>
-                <div class="social">
-                  <a href="#" target="_blank"><i class="ri-twitter-fill"></i></a>
-                  <a href="#" target="_blank"><i class="ri-facebook-fill"></i></a>
-                  <a href="#"><i class="ri-instagram-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/andizadry" target="_blank"> <i class="ri-linkedin-box-fill"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 pt-2">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="500">
-              <div class="pic">
-                <img src="static/images/team/brian.jpeg" class="img-fluid" alt="Brian Sangapta" />
-              </div>
-              <div class="member-info">
-                <h4>Brian Sangapta</h4>
-                <span>Research Scientist</span>
-                <p>Area of interest:</p>
-                <p>Artificial Intelligence, Networking, Research Process</p>
-                <div class="social">
-                  <a href="#"><i class="ri-twitter-fill"></i></a>
-                  <a href="#"><i class="ri-facebook-fill"></i></a>
-                  <a href="#"><i class="ri-instagram-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/briansangapta" target="_blank">
-                    <i class="ri-linkedin-box-fill"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-    <!-- End Team Section -->
-
-    <!-- ======= Achievements Section ======= -->
-    <section id="achievements" class="achievements">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>Achievements</h2>
-          <p>
-            Beberapa prestasi yang sudah ditorehkan oleh Braincore dalam
-            berbagai ajang kompetisi teknologi
-          </p>
-        </div>
-
-        <div class="row achievements-container" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-lg-4 col-md-6 achievements-item">
-            <div class="achievements-img">
-              <img src="static/images/achievement/ai_creation.JPG" class="img-fluid achievements"
-                alt="AI Creation Batch 1 - Tahseen.id" />
-            </div>
-            <div class="achievements-info">
-              <h4>
-                AI Creation - Braincore
-              </h4>
-              <p>Competition</p>
-              <a href="static/images/achievement/ai_creation.JPG" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="AI Creation - Braincore"><i class="bx bx-plus"></i></a>
-              <a href="https://www.instagram.com/p/CYboEJthwSC" target="_blank" class="details-link"
-                title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 achievements-item">
-            <div class="achievements-img">
-              <img src="static/images/achievement/compfest.jpeg" class="img-fluid achievements"
-                alt="Fasilkom UI Compfest AI Innovation Challenge" height="100px" />
-            </div>
-            <div class="achievements-info">
-              <h4>
-                Compfest 14 AIC
-              </h4>
-              <p>Competition</p>
-              <a href="static/images/achievement/compfest.jpeg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Compfest 14"><i class="bx bx-plus"></i></a>
-              <a href="https://ittelkom-pwt.ac.id/ikuti-ui-comfest-14-tim-braincore-berhasil-raih-predikat-honorable-mention"
-                target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 achievements-item">
-            <div class="achievements-img">
-              <img src="static/images/achievement/ai_creation_1.jpeg" class="img-fluid achievements"
-                alt="AI Creation Batch 1 - Braincore.id" />
-            </div>
-            <div class="achievements-info">
-              <h4>
-                AI Creation - Braincore
-              </h4>
-              <p>Competition</p>
-              <a href="static/images/achievement/ai_creation_1.jpeg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="AI Creation - Braincore"><i class="bx bx-plus"></i></a>
-              <a href="https://www.instagram.com/p/CYboEJthwSC" target="_blank" class="details-link"
-                title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 achievements-item">
-            <div class="achievements-img">
-              <img src="static/images/achievement/stuntrack.jpg" class="img-fluid achievements"
-                alt="Stuntrack IT Telkom Surabaya" />
-            </div>
-            <div class="achievements-info">
-              <h4>
-                Stuntrack - ITTS
-              </h4>
-              <p>Competition Mentorship</p>
-              <a href="static/images/achievement/stuntrack.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Stuntrack - ITTS"><i class="bx bx-plus"></i></a>
-              <a href="https://ittelkom-sby.ac.id/enam-mahasiswa-ittelkom-surabaya-raih-pendanaan-proyek-dan-kolaborasi-strategis-dengan-plan-indonesia"
-                target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 achievements-item">
-            <div class="achievements-img">
-              <img src="static/images/achievement/scoppi-bappenas.jpeg" class="img-fluid achievements"
-                alt="SCOPPI di BAPPENAS" />
-            </div>
-            <div class="achievements-info">
-              <h4>
-                SCOPPI - BAPPEDA Sukabumi
-              </h4>
-              <p>AI Software</p>
-              <a href="static/images/achievement/scoppi-bappenas.jpeg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="AI Creation - Braincore"><i class="bx bx-plus"></i></a>
-              <a href="https://jurnalsukabumi.com/2023/07/05/sosialisasi-program-scoppi-bappeda-kota-sukabumi-tampung-usulan-masyarakat/"
-                target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 achievements-item">
-            <div class="achievements-img">
-              <img src="static/images/achievement/dinkes.jpeg" class="img-fluid achievements"
-                alt="Dinkes DKI Jakarta" />
-            </div>
-            <div class="achievements-info">
-              <h4>
-                Dinkes DKI Jakarta
-              </h4>
-              <p>AI Software</p>
-              <a href="static/images/achievement/dinkes.jpeg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Dinkes DKI Jakarta"><i class="bx bx-plus"></i></a>
-              <!-- <a href="https://jurnalsukabumi.com/2023/07/05/sosialisasi-program-scoppi-bappeda-kota-sukabumi-tampung-usulan-masyarakat/"
-                target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 achievements-item">
-            <div class="achievements-img">
-              <img src="static/images/achievement/bappeda.jpeg" class="img-fluid achievements"
-                alt="BAPEDDA Sukabumi - SCOPPI" />
-            </div>
-            <div class="achievements-info">
-              <h4>
-                BAPPEDA Sukabumi
-              </h4>
-              <p>AI Software</p>
-              <a href="static/images/achievement/bappeda.jpeg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Bappeda Sukabumi"><i class="bx bx-plus"></i></a>
-              <!-- <a href="https://jurnalsukabumi.com/2023/07/05/sosialisasi-program-scoppi-bappeda-kota-sukabumi-tampung-usulan-masyarakat/"
-                target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 achievements-item">
-            <div class="achievements-img">
-              <img src="static/images/achievement/bdc.jpeg" class="img-fluid achievements" alt="Big Data Challenge" />
-            </div>
-            <div class="achievements-info">
-              <h4>
-                Big Data Challenge
-              </h4>
-              <p>Competition</p>
-              <a href="static/images/achievement/bdc.jpeg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Big Data Challenge"><i class="bx bx-plus"></i></a>
-              <a href="https://timesindonesia.co.id/indonesia-positif/465966/ub-malang-berhasil-menang-dua-kategori-di-satria-data-2023"
-                target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-    <!-- End Achievements Section -->
-
-    <!-- Media Section -->
-    <section id="media" class="media section-bg">
-      <div class="container">
-        <div class="section-title">
-          <h2>Highlighted On</h2>
-          <p>Braincore telah beberapa kali diliput oleh media berikut ini</p>
-        </div>
-        <div class="row justify-content-center" data-aos="zoom-in">
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
-            <img src="static/images/highlights/tjp.png" class="img-fluid" alt="The Jakarta Post">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
-            <img src="static/images/highlights/rri.png" class="img-fluid" alt="RRI" width="100">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
-            <img src="static/images/highlights/times-indonesia.png" class="img-fluid" alt="Time Indonesia">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
-            <img src="static/images/highlights/kampus-republika.png" class="img-fluid" alt="Kampus Republika">
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq section-bg">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>Frequently Asked Questions</h2>
-          <p>Kumpulan pertanyaan yang sering ditanyakan</p>
-        </div>
-
-        <div class="faq-list">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-WGN3M4N");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Hotjar Tracking Code for https://braincore.id/ -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3364683, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Braincore.id - Konsultasi AI</title>
+
+    <!-- Favicons -->
+    <link href="static/images/favicon.png" rel="icon" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
+
+    <!-- Vendor CSS Files -->
+    <link href="static/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link href="static/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="static/css/about.css" rel="stylesheet" />
+    <link href="static/css/achievements.css" rel="stylesheet" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://braincore.id/" />
+
+    <!-- Meta Robot -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- Meta Keywords -->
+    <meta name="keywords" content="Proyek Data science, Machine Learning, Computer Vision, Natural Language Processing, Konsultasi Proyek AI" />
+
+    <!-- Primary Meta Tags -->
+    <title>Braincore - Jasa Konsultasi dan Pengerjaan Proyek AI</title>
+    <meta name="title" content="Braincore - Jasa Konsultasi dan Pengerjaan Proyek AI" />
+    <meta name="description" content="Jasa konsultasi dan pengerjaan proyek data science, machine learning, dan artificial intelligence untuk pelajar dan pekerja profesional" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://braincore.id/" />
+    <meta property="og:title" content="Braincore - Jasa Konsultasi dan Pengerjaan Proyek AI" />
+    <meta property="og:description" content="Jasa konsultasi dan pengerjaan proyek data science, machine learning, dan artificial intelligence untuk pelajar dan pekerja profesional" />
+    <meta property="og:image" content="https://braincore.id/static/images/banner.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://braincore.id/" />
+    <meta property="twitter:title" content="Braincore - Jasa Konsultasi dan Pengerjaan Proyek AI" />
+    <meta property="twitter:description" content="Jasa konsultasi dan pengerjaan proyek data science, machine learning, dan artificial intelligence untuk pelajar dan pekerja profesional" />
+    <meta property="twitter:image" content="https://braincore.id/static/images/banner.png" />
+
+    <!-- Dialogflow CSS -->
+    <style>
+      df-messenger {
+        --df-messenger-bot-message: #385586;
+        --df-messenger-button-titlebar-color: #385586;
+        --df-messenger-chat-background-color: #e3f0ff;
+        --df-messenger-font-color: white;
+        --df-messenger-send-icon: #385586;
+        --df-messenger-user-message: #258781;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WGN3M4N" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center">
+        <a href="/index.html"><img style="margin-right: 0.75rem; width: 45px" src="static/images/braincore.png" alt="Braincore" /></a>
+        <h2 class="logo me-auto"><a href="#">Braincore.id</a></h2>
+
+        <nav id="navbar" class="navbar">
           <ul>
-            <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i>
-              <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Apa saja layanan yang
-                ditawarkan oleh Braincore?
-                <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-                <p>
-                  Braincore menyediakan layanan konsultasi AI, pelatihan AI,
-                  dan jasa machine learning. Kami fokus pada tiga aspek, yaitu
-                  computer vision, natural language processing, dan ML
-                  deployment.
-                </p>
-              </div>
+            <li>
+              <a class="nav-link scrollto active" href="#hero">Beranda</a>
+            </li>
+            <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
+            <li><a class="nav-link scrollto" href="#services">Layanan</a></li>
+            <li>
+              <a class="nav-link scrollto" href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="https://braincore.id/consultation" target="_blank">Konsultasi</a>
+            </li>
+            <li><a class="nav-link scrollto" href="#team">Tim</a></li>
+            <li>
+              <a class="nav-link scrollto" href="#achievements">Pencapaian</a>
             </li>
 
-            <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-help-circle icon-help"></i>
-              <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Siapa yang dapat menggunakan
-                layanan Braincore?
-                <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Layanan Braincore dapat digunakan oleh berbagai jenis bisnis
-                  atau organisasi, baik yang sudah mempunyai pengalaman dalam
-                  penggunaan teknologi AI maupun yang masih awam. Kami siap
-                  membantu mengembangkan potensi AI pada bisnis Anda.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-help-circle icon-help"></i>
-              <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Apa keunggulan dari layanan
-                konsultasi AI yang ditawarkan
-                oleh Braincore? <i class="bx bx-chevron-down icon-show"></i><i
-                  class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Layanan konsultasi AI yang ditawarkan oleh Braincore
-                  memiliki keunggulan dalam menyediakan solusi AI yang tepat
-                  dan efektif untuk kebutuhan bisnis Anda, dengan
-                  menggabungkan pengalaman dan pengetahuan yang luas dalam
-                  bidang AI.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="400">
-              <i class="bx bx-help-circle icon-help"></i>
-              <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Apa manfaat dari pelatihan AI
-                yang disediakan oleh
-                Braincore?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Pelatihan AI yang disediakan oleh Braincore dapat membantu
-                  meningkatkan kemampuan dan pengetahuan karyawan atau tim
-                  Anda dalam penggunaan teknologi AI, sehingga dapat
-                  memberikan kontribusi yang lebih besar terhadap perkembangan
-                  bisnis Anda.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="500">
-              <i class="bx bx-help-circle icon-help"></i>
-              <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Apa yang menjadi fokus dari
-                jasa machine learning yang
-                ditawarkan oleh Braincore?
-                <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Fokus dari jasa machine learning yang ditawarkan oleh
-                  Braincore adalah pada tiga aspek, yaitu computer vision,
-                  natural language processing, dan ML deployment, dengan
-                  tujuan membantu mengoptimalkan penggunaan teknologi AI dalam
-                  bisnis Anda.
-                </p>
-              </div>
-            </li>
+            <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
+            <li><a class="nav-link scrollto" href="/blog.html">Blog</a></li>
           </ul>
-        </div>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
       </div>
-    </section>
-    <!-- End Frequently Asked Questions Section -->
+    </header>
+    <!-- End Header -->
 
-    <section id="service" class="services pt-0">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title mt-5">
-          <h2>Blog</h2>
-          <p>Tulisan dari Blog Braincore</p>
-        </div>
-
-        <div class="row gy-4">
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="card p-4">
-              <div class="card-img">
-                <img src="static/images/blog/ai.png" alt="Apa itu AI?" class="img-fluid mb-4" style="height: 215px" />
-              </div>
-              <h5>
-                <a href="blog/apa-itu-ai.html" class="mt-3">Apa itu AI?</a>
-              </h5>
-              <p>
-                Kecerdasan Buatan, atau sering disingkat AI (Artificial
-                Intelligence), adalah bidang dalam ilmu komputer yang berkaitan dengan pengembangan komputer ....
-                <a href="blog/apa-itu-ai.html">Read More</a>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="card p-4">
-              <div class="card-img">
-                <img src="static/images/blog/marketing.png" alt="Pemanfaatan Machine Learning dalam Marketing"
-                  class="img-fluid mb-4" />
-              </div>
-              <h5>
-                <a href="blog/pemanfaatan-machine-learning-dalam-marketing.html" class="mt-3">Pemanfaatan Machine
-                  Learning dalam Marketing</a>
-              </h5>
-              <p>
-                Marketing atau pemasaran adalah salah satu elemen utama dalam
-                menjalankan usaha yang <i>sustainable</i> .....
-                <a href="blog/pemanfaatan-machine-learning-dalam-marketing.html">Read More</a>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="card p-4">
-              <div class="card-img">
-                <img src="static/images/blog/ai-in-business.jpeg"
-                  alt="Meningkatkan Daya Saing UMKM dengan Kecerdasan Buatan (AI)" class="img-fluid mb-4" />
-              </div>
-              <h5>
-                <a href="blog/pemanfaatan-machine-learning-dalam-marketing.html" class="mt-3">Meningkatkan Daya Saing
-                  UMKM dengan Kecerdasan Buatan (AI)</a>
-              </h5>
-              <p>
-                Usaha Mikro, Kecil, dan Menengah (UMKM) adalah tulang punggung ekonomi di banyak .....
-                <a href="blog/pemanfaatan-machine-learning-dalam-marketing.html">Read More</a>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="card p-4">
-              <div class="card-img">
-                <img src="static/images/blog/ethical-ai.png" alt="Ethical AI: Tantangan dan Solusi"
-                  class="img-fluid mb-4" />
-              </div>
-              <h5>
-                <a href="blog/ethical-ai-tantangan-dan-solusi.html" class="mt-3">
-                  Ethical AI: Tantangan dan Solusi
-                </a>
-              </h5>
-              <p>
-                Hari ini, kecerdasan buatan (AI) telah menjadi bagian yang tidak terpisahkan dari kehidupan manusia.
-                Dengan kemajuan .....
-                <a href="blog/ethical-ai-tantangan-dan-solusi.html">Read More</a>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="card p-4">
-              <div class="card-img">
-                <img src="static/images/blog/prediksi-dan-peramalan-bisnis-dengan-machine-learning.jpg"
-                  alt="Prediksi dan Peramalan Bisnis dengan Machine Learning" class="img-fluid mb-4" />
-              </div>
-              <h5>
-                <a href="blog/prediksi-dan-peramalan-bisnis-dengan-machine-learning.html" class="mt-3">
-                  Prediksi dan Peramalan Bisnis dengan Machine Learning
-                </a>
-              </h5>
-              <p>
-                Machine learning telah menjadi teknologi yang menonjol dalam era digital ini .....
-                <a href="blog/prediksi-dan-peramalan-bisnis-dengan-machine-learning.html">Read More</a>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="card p-4">
-              <div class="card-img">
-                <img src="static/images/blog/Chatbot.png" alt="Chatbot: Mendekati Pelanggan dengan Kecerdasan Buatan"
-                  class="img-fluid mb-4" />
-              </div>
-              <h5>
-                <a href="blog/chatbot-mendekati-pelanggan-dengan-kecerdasan-buatan.html" class="mt-3">
-                  Chatbot: Mendekati Pelanggan dengan Kecerdasan Buatan
-                </a>
-              </h5>
-              <p>
-                Seiring dengan perkembangan teknologi, penggunaan chatbot sebagai alat ...
-                <a href="blog/chatbot-mendekati-pelanggan-dengan-kecerdasan-buatan.html">Read More</a>
-              </p>
-            </div>
-          </div>
-          <!-- End Card Item -->
-        </div>
-      </div>
-    </section>
-    <!-- End Services Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>Kontak</h2>
-          <p>
-            Ada yang ingin disampaikan atau ditanyakan? Silahkan isi form di
-            bawah ini
-          </p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-5 d-flex align-items-stretch">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>Jl. Letjen S. Parman No.28</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>braincore.id@gmail.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+62 821 2560 9413</p>
-              </div>
-
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6591830399225!2d106.78929841413706!3d-6.176359362240449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f65f73d4c9cb%3A0x144ec1e5914e9cc3!2sAPL%20Tower%2C%20RT.3%2FRW.5%2C%20Tj.%20Duren%20Sel.%2C%20Kec.%20Grogol%20petamburan%2C%20Kota%20Jakarta%20Barat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2011470!5e0!3m2!1sid!2sid!4v1640794746998!5m2!1sid!2sid"
-                frameborder="0" style="border: 0; width: 100%; height: 290px" allowfullscreen></iframe>
-            </div>
-          </div>
-
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="" method="post" class="php-email-form" netlify>
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Nama</label>
-                  <input type="text" name="name" class="form-control" id="name" required />
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required />
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Subjek</label>
-                <input type="text" class="form-control" name="subject" id="subject" required />
-              </div>
-              <div class="form-group">
-                <label for="name">Pesan</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Memuat</div>
-                <div class="error-message"></div>
-                <div class="sent-message">
-                  Pesan anda telah terkirim. Terima Kasih!
-                </div>
-              </div>
-              <div class="text-center">
-                <input type="submit" value="Kirim" />
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Contact Section -->
-  </main>
-  <!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="footer-newsletter">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            <h4>Dapatkan Notifikasi Pembaruan</h4>
-            <p>
-              Langganan untuk mendapatkan informasi dan promo menarik dari
-              Braincore!
-            </p>
-            <form action="" method="post" netlify>
-              <input type="email" name="email" placeholder="Masukkan Alamat Email" /><input type="submit"
-                value="Langganan" />
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer-top">
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h6>Braincore.id</h6>
-            <p>PT. ALGONACCI SOBAT NUSANTARA</p>
-            <br>
-            <p>
-              <span>Jl. Letjen S. Parman No.28</span> <br />
-              Grogol Petamburan <br />
-              Kota Jakarta Barat <br />
-              Daerah Khusus Ibukota Jakarta 11470<br /><br />
-              <strong>Phone:</strong> +62 821 2560 9413<br />
-              <strong>Email:</strong> braincore.id@gmail.com<br />
-            </p>
+          <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+            <h1>Jasa Konsultasi dan Pengerjaan Proyek AI</h1>
+            <h2>Data Science, Machine Learning, dan Artificial Intelligence untuk pelajar dan pekerja profesional.</h2>
+            <div class="d-flex justify-content-center justify-content-lg-start">
+              <a href="#about" class="btn-get-started scrollto">Mulai Cari Tahu</a>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+            <img src="static/images/hero-img.png" class="img-fluid animated" alt="Konsultasi AI" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+      <!-- ======= Clients Section ======= -->
+      <section id="clients" class="clients section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Client & Mitra Kami</h2>
+            <p>Beberapa klien dan mitra kami</p>
+          </div>
+          <div class="row" data-aos="zoom-in">
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
+              <img src="static/images/clients/logo-bangkit.svg" class="img-fluid" alt="Bangkit" />
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
+              <img src="static/images/clients/itts.png" class="img-fluid" alt="ITTS" />
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
+              <img src="static/images/clients/ittp.webp" class="img-fluid" alt="ITTP" />
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
+              <img src="static/images/clients/ugm.png" class="img-fluid" alt="UGM" width="100" />
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
+              <img src="static/images/clients/dinkes.webp" class="img-fluid" alt="Dinkes DKI" width="100" />
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
+              <img src="static/images/clients/indmira.svg" class="img-fluid" alt="Indmira" />
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
+              <img src="static/images/clients/uii.png" class="img-fluid" alt="UII" width="200" />
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
+              <img src="static/images/clients/ithb.png" class="img-fluid" alt="ITHB" width="200" />
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
+              <img src="static/images/clients/ui.png" class="img-fluid" alt="UI" width="100" />
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
+              <img src="static/images/clients/itb.png" class="img-fluid" alt="ITB" width="100" />
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
+              <img src="static/images/clients/ub.png" class="img-fluid" alt="UB" width="100" />
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
+              <img src="static/images/clients/pnj.png" class="img-fluid" alt="PNJ" width="100" />
+            </div>
+
+            <!-- Tombol Lihat Lebih Banyak -->
+            <div class="col-lg-12 text-center pt-5">
+              <a href="#?" class="btn-learn-more">Dan Masih Banyak Lagi</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Cliens Section -->
+
+      <!-- ======= About Us Section ======= -->
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Tentang Braincore.id</h2>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Pintasan</h4>
+          <div class="row content">
+            <div class="col-lg-6 pt-4 pt-lg-0">
+              <h3>Latar Belakang</h3>
+              <p class="mt-3">
+                Braincore.id dibentuk karena kami sadar bahwa implementasi teknologi kecerdasan buatan di Indonesia masih sangat minim meskipun hampir semua orang menggunakan gadget seperti handphone. <br />
+                <br />
+                Braincore.id hadir untuk menawarkan solusi berupa jasa konsultasi dan pengerjaan proyek berbasis kecerdasan buatan dalam berbagai bidang khususnya pada bidang edukasi.
+              </p>
+              <br />
+            </div>
+            <div class="col-lg-6">
+              <p>Visi kami adalah mempersiapkan masyarakat memasuki era revolusi industri digital dan mengenalkan teknologi kecerdasan buatan kepada masyarakat luas. Misi kami adalah:</p>
+              <ul>
+                <li><i class="ri-check-double-line"></i> Membuat produk kecerdasan buatan dengan rasa tanggung jawab yang mampu bersaing di dunia teknologi.</li>
+                <li><i class="ri-check-double-line"></i> Mengedukasi masyarakat tentang penggunaan teknologi kecerdasan buatan dalam kehidupan sehari-hari.</li>
+
+                <br />
+                <a href="#" class="btn-learn-more">Pelajari Lebih Lanjut</a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Us Section -->
+
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Layanan</h2>
+            <p>Braincore.id menawarkan berbagai layanan yang dapat membantu masyarakat umum dalam manfaat Kecerdasan Buatan dalam berbagai bidang terutama pada bidang edukasi.</p>
+          </div>
+
+          <div class="row justify-content-between">
+            <div class="col-lg-4">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                <div class="pic">
+                  <img src="static/images/classification.png" class="img-fluid" alt="Klasifikasi KNN Python Scikit Learn Sklearn" />
+                </div>
+                <div class="member-info">
+                  <h5>Classification</h5>
+                  <p>Klasifikasi data menggunakan beberapa teknik pembelajaran mesin</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                <div class="pic">
+                  <img src="static/images/forecasting.png" class="img-fluid" alt="Forecasting peramalan dengan ARIMA" />
+                </div>
+                <div class="member-info">
+                  <h5>Forecasting</h5>
+                  <p>Analisis data deret waktu menggunakan metode ARIMA</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                <div class="pic">
+                  <img src="static/images/clustering.png" class="img-fluid" alt="Clustering klasterisasi menggunakan K-Means" />
+                </div>
+                <div class="member-info">
+                  <h5>Clustering</h5>
+                  <p>Klasterisasi data numerik dan kategorik dengan beberapa metode Clustering</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                <div class="pic">
+                  <img src="static/images/data-mining.png" class="img-fluid" alt="Data mining, teknik pengumpulan data" />
+                </div>
+                <div class="member-info">
+                  <h5>Data Mining</h5>
+                  <p>Proses data collection untuk pemodelan machine learning</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                <div class="pic">
+                  <img src="static/images/statistics.png" class="img-fluid" alt="Teknik statistika dalam machine learning" />
+                </div>
+                <div class="member-info">
+                  <h5>Statistika</h5>
+                  <p>Pengolahan data untuk berbagai keperluan analisis dengan pendekatan Statistika</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                <div class="pic">
+                  <img src="static/images/text-mining.png" class="img-fluid" alt="Pengumpulan, pemrosesan, dan pengolahan data teks text corpus untuk NLP" />
+                </div>
+                <div class="member-info">
+                  <h5>Text Mining</h5>
+                  <p>Penngumpulan data corpus untuk keperluan penelitian di bidang NLP</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                <div class="pic">
+                  <img src="static/images/face-recognition.png" class="img-fluid" alt="Sistem pengenalan wajah untuk presensi" />
+                </div>
+                <div class="member-info">
+                  <h5>Face Recognition</h5>
+                  <p>Sistem deteksi wajah untuk berbagai keperluan</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                <div class="pic">
+                  <img src="static/images/object-counting.png" class="img-fluid" alt="Penghitung jumlah objek dengan deteksi objek" />
+                </div>
+                <div class="member-info">
+                  <h5>Objects Counting</h5>
+                  <p>Algoritma penghitung jumlah objek</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                <div class="pic">
+                  <img src="static/images/ocr.png" class="img-fluid" alt="Pengenalan karakter dalam dokumen berupa gambar" />
+                </div>
+                <div class="member-info">
+                  <h5>Optical Character Recognition</h5>
+                  <p>Ekstraksi dokumen berupa KTP, Curriculum Vitae, dll</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                <div class="pic">
+                  <img src="static/images/object-detection.png" class="img-fluid" alt="Deteksi objek dengan menggunakan custom dataset" />
+                </div>
+                <div class="member-info">
+                  <h5>Object Detection</h5>
+                  <p>Deteksi object dengan menggunakan arsitektur Deep Learning</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                <div class="pic">
+                  <img src="static/images/image-classification.png" class="img-fluid" alt="Klasifikasi gambar menggunakan deep learning dalam beberapa kelas" />
+                </div>
+                <div class="member-info">
+                  <h5>Image Classification</h5>
+                  <p>Klasifikasi gambar menggunakan data yang sudah disediakan</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                <div class="pic">
+                  <img src="static/images/natural-language-processing.png" class="img-fluid" alt="Pemrosesan bahasa natural dengan menggunakan deep learning" />
+                </div>
+                <div class="member-info">
+                  <h5>Natural Language Processing</h5>
+                  <p>Sistem pembelajaran mesin dengan pendekatan linguistik</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                <div class="pic">
+                  <img src="static/images/embedded_system.png" class="img-fluid" alt="Sistem tertanam menggunakan Raspberry Pi, Arduino, ESP8266, ESP32, ESP" />
+                </div>
+                <div class="member-info">
+                  <h5>Embedded System</h5>
+                  <p>Pembuatan sistem tertanam dengan Arduino dan Raspberry Pi</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                <div class="pic">
+                  <img src="static/images/iot.png" class="img-fluid" alt="Pengembangan alat dan program berbasis IoT" />
+                </div>
+                <div class="member-info">
+                  <h5>Internet of Things</h5>
+                  <p>Pengembangan alat dan program berbasis IoT</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                <div class="pic">
+                  <img src="static/images/robotics.png" class="img-fluid" alt="Pengerjaan proyek rancang bangun sistem robot skala industri" />
+                </div>
+                <div class="member-info">
+                  <h5>Robotika</h5>
+                  <p>Rancang bangun sistem robot untuk berbagai keperluan</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                <div class="pic">
+                  <img src="static/images/software_engineering.png" class="img-fluid" alt="Pembuatan sistem perangkat lunak software frontend backend" />
+                </div>
+                <div class="member-info">
+                  <h5>Software Engineering</h5>
+                  <p>Rancang bangun sistem perangkat lunak</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                <div class="pic">
+                  <img src="static/images/bootcamp.png" class="img-fluid" alt="Tempat bootcamp belajar data science dan machine learning" />
+                </div>
+                <div class="member-info">
+                  <h5>Bootcamp</h5>
+                  <p>Belajar coding secara intensif selama 4 minggu</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                <div class="pic">
+                  <img src="static/images/blockchain.png" class="img-fluid" alt="Pembuatan blockchain, token, coin, smart contracts" />
+                </div>
+                <div class="member-info">
+                  <h5>Blockchain</h5>
+                  <p>Implementasi smart contract dalam berbagai studi kasus</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-12 text-center">
+              <a href="#consultation" class="btn-learn-more">Dan Masih Banyak Lagi</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Services Section -->
+
+      <!-- ======= Portfolio Section ======= -->
+      <section id="portfolio" class="portfolio">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Portfolio</h2>
+          </div>
+
+          <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-blockchain">Blockchain</li>
+            <li data-filter=".filter-ai">AI</li>
+            <li data-filter=".filter-iot">IoT</li>
+          </ul>
+
+          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-ai filter-iot">
+              <div class="portfolio-img">
+                <img src="static/images/portfolio/portfolio_2.png" class="img-fluid" alt="Door Lock Arduino" />
+              </div>
+              <div class="portfolio-info">
+                <h4>
+                  Door Lock System <br />
+                  by Face Recognition
+                </h4>
+                <p>Embedded System</p>
+                <a href="static/images/portfolio/portfolio_2.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Door Lock System by Face Recognition"><i class="bx bx-plus"></i></a>
+                <a href="portfolio/door-lock-system-using-face-recognition.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-ai">
+              <div class="portfolio-img">
+                <img src="static/images/portfolio/portfolio_1.png" class="img-fluid" alt="Face recognition" />
+              </div>
+              <div class="portfolio-info">
+                <h4>
+                  Face Recognition <br />
+                  Attendance System
+                </h4>
+                <p>AI</p>
+                <a href="static/images/portfolio/portfolio_1.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Face Recognition Attendance System"><i class="bx bx-plus"></i></a>
+                <a href="portfolio/face-recognition-attendance-system.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-iot">
+              <div class="portfolio-img">
+                <img src="static/images/portfolio/portfolio_3.png" class="img-fluid" alt="Midi Controller" />
+              </div>
+              <div class="portfolio-info">
+                <h4>
+                  Custom Midi Controller <br />
+                  Using Arduino
+                </h4>
+                <p>Embedded System</p>
+                <a href="static/images/portfolio/portfolio_3.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Custom Midi Controller Using Arduino"><i class="bx bx-plus"></i></a>
+                <a href="portfolio/custom-midi-controller.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-ai">
+              <div class="portfolio-img">
+                <img src="static/images/portfolio/portfolio_terrafarms.png" class="img-fluid" alt="Plant Diseases Detection" />
+              </div>
+              <div class="portfolio-info">
+                <h4>
+                  Plant Diseases <br />
+                  Detection
+                </h4>
+                <p>AI</p>
+                <a href="static/images/portfolio/portfolio_terrafarms.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Plant Diseases Detection"><i class="bx bx-plus"></i></a>
+                <a href="https://play.google.com/store/apps/details?id=com.terrafarms.terrafarms" target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-iot">
+              <div class="portfolio-img">
+                <img src="static/images/portfolio/portfolio_iot_terrafarms.png" class="img-fluid" alt="Agriculture IoT Kit" />
+              </div>
+              <div class="portfolio-info">
+                <h4>
+                  IoT Kit <br />
+                  Agriculture
+                </h4>
+                <p>IoT</p>
+                <a href="static/images/portfolio/portfolio_iot_terrafarms.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Agriculture IoT Kit For Terrafarms"><i class="bx bx-plus"></i></a>
+                <a href="https://terrafarms.id" target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-ai">
+              <div class="portfolio-img">
+                <img src="static/images/portfolio/portfolio_soil_detection.png" class="img-fluid" alt="Soil Detection" />
+              </div>
+              <div class="portfolio-info">
+                <h4>Soil Detection</h4>
+                <p>AI</p>
+                <a href="static/images/portfolio/portfolio_iot_terrafarms.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Soil Detection For Terrafarms"><i class="bx bx-plus"></i></a>
+                <a href="https://play.google.com/store/apps/details?id=com.terrafarms.terrafarms" target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-ai">
+              <div class="portfolio-img">
+                <img src="static/images/portfolio/portfolio_water_meter.png" class="img-fluid" alt="Water Meter OCR" />
+              </div>
+              <div class="portfolio-info">
+                <h4>
+                  Water Meter <br />
+                  Dashboard
+                </h4>
+                <p>AI</p>
+                <a href="static/images/portfolio/portfolio_water_meter.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Water Mater Dashboard Using OCR"><i class="bx bx-plus"></i></a>
+                <a href="portfolio/water-meter-dashboard.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-ai">
+              <div class="portfolio-img">
+                <img src="static/images/portfolio/portfolio_cv_class.png" class="img-fluid" alt="Computer Vision Class Final Project" />
+              </div>
+              <div class="portfolio-info">
+                <h4>
+                  Computer Vision <br />
+                  Class Final Project
+                </h4>
+                <p>Bootcamp</p>
+                <a href="static/images/portfolio/portfolio_cv_class.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Computer Vision Class Final Project"><i class="bx bx-plus"></i></a>
+                <a href="portfolio/computer-vision-class-final-project.html" target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-ai">
+              <div class="portfolio-img">
+                <img src="static/images/portfolio/portfolio_endapan_tambak_udang.png" class="img-fluid" alt="Monitoring Endapan Tambak Udang" />
+              </div>
+              <div class="portfolio-info">
+                <h4>
+                  Monitoring Endapan <br />
+                  Tambak Udang
+                </h4>
+                <p>AI</p>
+                <a href="static/images/portfolio/portfolio_endapan_tambak_udang.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Monitoring Endapan Tambak Udang"><i class="bx bx-plus"></i></a>
+                <a href="portfolio/monitoring-endapan-tambak-udang.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-ai">
+              <div class="portfolio-img">
+                <img src="static/images/portfolio/portfolio_orange_diseases.png" class="img-fluid" alt="Orange diseases classification" />
+              </div>
+              <div class="portfolio-info">
+                <h4>
+                  Orange Diseases <br />
+                  Classification
+                </h4>
+                <p>AI</p>
+                <a href="static/images/portfolio/portfolio_orange_diseases.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Orange diseases classification"><i class="bx bx-plus"></i></a>
+                <a href="portfolio/orange-diseases-classification.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-ai">
+              <div class="portfolio-img">
+                <img src="static/images/portfolio/portfolio_landmark_detection.png" class="img-fluid" alt="Landmark Detection" />
+              </div>
+              <div class="portfolio-info">
+                <h4>Landmark Detection</h4>
+                <p>AI</p>
+                <a href="static/images/portfolio/portfolio_landmark_detection.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Landmark Detection"><i class="bx bx-plus"></i></a>
+                <a href="portfolio/landmark-detection.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-ai">
+              <div class="portfolio-img">
+                <img src="static/images/portfolio/portfolio_travens_ai.png" class="img-fluid" alt="Travens AI" />
+              </div>
+              <div class="portfolio-info">
+                <h4>Travens AI</h4>
+                <p>AI</p>
+                <a href="static/images/portfolio/portfolio_travens_ai.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Travens AI"><i class="bx bx-plus"></i></a>
+                <a href="portfolio/travens-ai.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Portfolio Section -->
+
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Teknologi</h2>
+            <p>Braincore.id fokus menggunakan teknologi terbaru dalam melakukan rancang bangun sistem cerdas, berikut adalah teknologi yang kami gunakan.</p>
+          </div>
+
+          <div class="row justify-content-between">
+            <div class="row">
+              <p align="center">
+                <a href="https://www.arduino.cc" target="_blank">
+                  <img src="static/images/mqtt.png" alt="MQTT" />
+                </a>
+                <a href="https://www.arduino.cc/" target="_blank">
+                  <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="60" height="60" />
+                </a>
+                <a href="https://www.raspberrypi.org/" target="_blank"> <img src="static/images/raspi.jpeg" alt="Raspi Raspberry Pi" width="80" height="70" /></a>
+                <a href="http://esp32.net/" target="_blank">
+                  <img src="static/images/esp32.jpg" alt="ESP32" width="60" height="60" />
+                </a>
+                <a href="https://www.esp8266.com/" target="_blank">
+                  <img src="static/images/esp8266.png" alt="ESP8266" width="100" height="40" />
+                </a>
+                <a href="https://www.arduino.cc/" target="_blank">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++" width="60" height="60" />
+                </a>
+                <a href="https://nodejs.org/en/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" alt="NodeJS" width="60" height="60" /></a>
+                <a href="https://reactjs.org/" target="_blank"> <img src="static/images/react.png" alt="React.js" width="70" height="60" /></a>
+                <a href="https://flutter.dev/" target="_blank"> <img src="https://cdn.worldvectorlogo.com/logos/flutter-logo.svg" alt="Flutter" width="60" height="60" /></a>
+                <a href="https://laravel.com/" target="_blank"> <img src="static/images/Laravel.svg" alt="Laravel" width="60" height="60" /></a>
+                <a href="https://gin-gonic.com/" target="_blank"> <img src="https://raw.githubusercontent.com/gin-gonic/logo/master/color.png" alt="Gin Gonic" width="60" height="75" /></a>
+                <a href="https://www.mysql.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/mysql/mysql-ar21.svg" alt="MySQL" width="100" height="100" /></a>
+                <a href="https://www.postgresql.org/" target="_blank"> <img src="https://cdn.worldvectorlogo.com/logos/postgresql.svg" alt="PostgreSQL" width="60" height="60" /></a>
+                <a href="https://www.mongodb.com/" target="_blank"> <img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" alt="MongoDB" width="60" height="60" /></a>
+                <a href="https://docs.soliditylang.org/en/v0.8.17/" target="_blank"> <img src="https://cdn.worldvectorlogo.com/logos/solidity.svg" alt="Solidity" width="60" height="60" /></a>
+                <br />
+                <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="60" height="60" /></a>
+                <a href="https://opencv.org/" target="_blank">
+                  <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="60" height="60" />
+                </a>
+                <a href="https://streamlit.io/" target="_blank">
+                  <img src="static/images/streamlit.png" alt="flask" width="100" height="80" />
+                </a>
+                <a href="https://flask.palletsprojects.com/" target="_blank">
+                  <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="60" height="60" />
+                </a>
+                <a href="https://www.tensorflow.org" target="_blank">
+                  <img src="static/images/tensorflow.png" alt="tensorflow" width="60" height="60" />
+                </a>
+                <a href="https://pytorch.org/" target="_blank">
+                  <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="60" height="60" />
+                </a>
+                <a href="https://scikit-learn.org/" target="_blank">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="60" height="60" />
+                </a>
+                <a href="https://huggingface.co/" target="_blank">
+                  <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="hugging_face" width="60" height="60" />
+                </a>
+                <a href="https://fastapi.tiangolo.com/" target="_blank">
+                  <img src="https://seeklogo.com/images/F/fastapi-logo-541BAA112F-seeklogo.com.png" alt="fast_api" width="60" height="60" />
+                </a>
+                <a href="https://cloud.google.com/" target="_blank">
+                  <img src="https://seeklogo.com/images/G/google-cloud-logo-ADE788217F-seeklogo.com.png" alt="gcp" width="50" height="40" />
+                </a>
+                <a href="https://aws.amazon.com/" target="_blank">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="60" height="60" />
+                </a>
+              </p>
+            </div>
+
+            <div class="col-lg-12 text-center">
+              <a href="#consultation" class="btn-learn-more">Dan Masih Banyak Lagi</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Services Section -->
+
+      <!-- ======= Cta Section ======= -->
+      <section id="consultation" class="cta">
+        <div class="container" data-aos="zoom-in">
+          <div class="row">
+            <div class="col-lg-9 text-center text-lg-start">
+              <h3>Belum menemukan yang kamu inginkan?</h3>
+              <p>Kamu bisa berkonsultasi dengan kami perihal proyek yang ingin dikerjakan.</p>
+            </div>
+            <div class="col-lg-3 cta-btn-container text-center">
+              <a class="cta-btn align-middle" target="_blank" href="https://braincore.id/consultation">
+                <!-- href="https://api.whatsapp.com/send?phone=6282125609413&text=Halo,%20dengan%20Admin%20Braincore.id?" -->
+                <i class="bi bi-search"></i> Konsultasi disini
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Cta Section -->
+
+      <!-- ======= Team Section ======= -->
+      <section id="team" class="team section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Team</h2>
+            <p>Dalam perkembangan Braincore.id, ada tim hebat yang berisikan orang-orang luar biasa yang ahli di bidangnya masing-masing dan saling bekerja sama dalam pengembangan Braincore.id</p>
+          </div>
+
+          <div class="row pt-2">
+            <div class="col-lg-6 pt-2">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                <div class="pic">
+                  <img src="static/images/team/eric.png" class="img-fluid" alt="Eric Julianto" />
+                </div>
+                <div class="member-info">
+                  <h4>Eric Julianto</h4>
+                  <span>Research Analyst</span>
+                  <p>Area of interest:</p>
+                  <p>Artificial Intelligence, Blockchain, Internet of Things</p>
+                  <div class="social">
+                    <a href="https://twitter.com/algonacci" target="_blank"><i class="ri-twitter-fill"></i></a>
+                    <a href="https://algonacci.github.io/" target="_blank"><i class="ri-facebook-fill"></i></a>
+                    <a href="https://instagram.com/eric.juliantooo"><i class="ri-instagram-fill"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 pt-2">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                <div class="pic">
+                  <img src="static/images/team/sadri.png" class="img-fluid" alt="Andi Sadri Agung" />
+                </div>
+                <div class="member-info">
+                  <h4>Andi Sadri Agung</h4>
+                  <span>Research Scientist</span>
+                  <p>Area of interest:</p>
+                  <p>Artificial Intelligence, Data Science, Research Process</p>
+                  <div class="social">
+                    <a href="#" target="_blank"><i class="ri-twitter-fill"></i></a>
+                    <a href="#" target="_blank"><i class="ri-facebook-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/andizadry" target="_blank"> <i class="ri-linkedin-box-fill"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row pt-2">
+            <div class="col-lg-6 pt-2">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+                <div class="pic">
+                  <img src="static/images/team/nad.jpg" class="img-fluid" alt="Nadea Putri" />
+                </div>
+                <div class="member-info">
+                  <h4>Nadea Putri</h4>
+                  <span>Data Scientist</span>
+                  <p>Area of interest:</p>
+                  <p>Artificial Intelligence, Data Science, Machine Learning</p>
+                  <div class="social">
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/nadeaputrinf/" target="_blank">
+                      <i class="ri-linkedin-box-fill"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 pt-2">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+                <div class="pic">
+                  <img src="static/images/team/apis.jpeg" class="img-fluid" alt="Apis Alfizdiana" />
+                </div>
+                <div class="member-info">
+                  <h4>Alfizdiana Sholikhah</h4>
+                  <span>Project Manager</span>
+                  <p>Area of interest:</p>
+                  <p>Project Management, Business Development, DevOps</p>
+                  <div class="social">
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/alfizdiana-sholikhah-7a06a3222/" target="_blank">
+                      <i class="ri-linkedin-box-fill"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row pt-2">
+            <div class="col-lg-6 pt-2">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
+                <div class="pic">
+                  <img src="static/images/team/thesi.jpg" class="img-fluid" alt="Thesion Marta Sianipar" />
+                </div>
+                <div class="member-info">
+                  <h4>Thesion Marta Sianipar</h4>
+                  <span>Data Scientist</span>
+                  <p>Area of interest:</p>
+                  <p>Artificial Intelligence, Data Science, Statistical Analysis</p>
+                  <div class="social">
+                    <a href="#" target="_blank"><i class="ri-twitter-fill"></i></a>
+                    <a href="#" target="_blank"><i class="ri-facebook-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/thesionmartasianipar" target="_blank"> <i class="ri-linkedin-box-fill"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 pt-2">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
+                <div class="pic">
+                  <img src="static/images/team/fanisa.jpeg" class="img-fluid" alt="Fanisa Nimastiti" />
+                </div>
+                <div class="member-info">
+                  <h4>Fanisa Nimastiti</h4>
+                  <span>Data Scientist</span>
+                  <p>Area of interest:</p>
+                  <p>Artificial Intelligence, Data Science, SNA</p>
+                  <div class="social">
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/fanisa-nimastiti-805404164" target="_blank">
+                      <i class="ri-linkedin-box-fill"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row pt-2">
+            <div class="col-lg-6 pt-2">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+                <div class="pic">
+                  <img src="static/images/team/jemmy.jpeg" class="img-fluid" alt="Jemmy Febryan" />
+                </div>
+                <div class="member-info">
+                  <h4>Jemmy Febryan</h4>
+                  <span>Data Scientist</span>
+                  <p>Area of interest:</p>
+                  <p>Business Analytics, HR Analytics, Natural Language Processing</p>
+                  <div class="social">
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/jemmyfebryan" target="_blank">
+                      <i class="ri-linkedin-box-fill"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 pt-2">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="500">
+                <div class="pic">
+                  <img src="static/images/team/abdi.png" class="img-fluid" alt="Abdi Negara Guci" />
+                </div>
+                <div class="member-info">
+                  <h4>Abdi Negara Guci</h4>
+                  <span>Data Scientist</span>
+                  <p>Area of interest:</p>
+                  <p>Artificial Intelligence, Data Analytics, Computer Vision</p>
+                  <div class="social">
+                    <a href="#" target="_blank"><i class="ri-twitter-fill"></i></a>
+                    <a href="#" target="_blank"><i class="ri-facebook-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/abdi-negara-guci-24b98b233" target="_blank"> <i class="ri-linkedin-box-fill"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Team Section -->
+
+      <!-- ======= Achievements Section ======= -->
+      <section id="achievements" class="achievements">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Achievements</h2>
+            <p>Beberapa prestasi yang sudah ditorehkan oleh Braincore dalam berbagai ajang kompetisi teknologi</p>
+          </div>
+
+          <div class="row achievements-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 achievements-item">
+              <div class="achievements-img">
+                <img src="static/images/achievement/ai_creation.JPG" class="img-fluid achievements" alt="AI Creation Batch 1 - Tahseen.id" />
+              </div>
+              <div class="achievements-info">
+                <h4>AI Creation - Braincore</h4>
+                <p>Competition</p>
+                <a href="static/images/achievement/ai_creation.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="AI Creation - Braincore"><i class="bx bx-plus"></i></a>
+                <a href="https://www.instagram.com/p/CYboEJthwSC" target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 achievements-item">
+              <div class="achievements-img">
+                <img src="static/images/achievement/compfest.jpeg" class="img-fluid achievements" alt="Fasilkom UI Compfest AI Innovation Challenge" height="100px" />
+              </div>
+              <div class="achievements-info">
+                <h4>Compfest 14 AIC</h4>
+                <p>Competition</p>
+                <a href="static/images/achievement/compfest.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Compfest 14"><i class="bx bx-plus"></i></a>
+                <a href="https://ittelkom-pwt.ac.id/ikuti-ui-comfest-14-tim-braincore-berhasil-raih-predikat-honorable-mention" target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 achievements-item">
+              <div class="achievements-img">
+                <img src="static/images/achievement/ai_creation_1.jpeg" class="img-fluid achievements" alt="AI Creation Batch 1 - Braincore.id" />
+              </div>
+              <div class="achievements-info">
+                <h4>AI Creation - Braincore</h4>
+                <p>Competition</p>
+                <a href="static/images/achievement/ai_creation_1.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="AI Creation - Braincore"><i class="bx bx-plus"></i></a>
+                <a href="https://www.instagram.com/p/CYboEJthwSC" target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 achievements-item">
+              <div class="achievements-img">
+                <img src="static/images/achievement/stuntrack.jpg" class="img-fluid achievements" alt="Stuntrack IT Telkom Surabaya" />
+              </div>
+              <div class="achievements-info">
+                <h4>Stuntrack - ITTS</h4>
+                <p>Competition Mentorship</p>
+                <a href="static/images/achievement/stuntrack.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Stuntrack - ITTS"><i class="bx bx-plus"></i></a>
+                <a href="https://ittelkom-sby.ac.id/enam-mahasiswa-ittelkom-surabaya-raih-pendanaan-proyek-dan-kolaborasi-strategis-dengan-plan-indonesia" target="_blank" class="details-link" title="More Details"
+                  ><i class="bx bx-link"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 achievements-item">
+              <div class="achievements-img">
+                <img src="static/images/achievement/scoppi-bappenas.jpeg" class="img-fluid achievements" alt="SCOPPI di BAPPENAS" />
+              </div>
+              <div class="achievements-info">
+                <h4>SCOPPI - BAPPEDA Sukabumi</h4>
+                <p>AI Software</p>
+                <a href="static/images/achievement/scoppi-bappenas.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="AI Creation - Braincore"><i class="bx bx-plus"></i></a>
+                <a href="https://jurnalsukabumi.com/2023/07/05/sosialisasi-program-scoppi-bappeda-kota-sukabumi-tampung-usulan-masyarakat/" target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 achievements-item">
+              <div class="achievements-img">
+                <img src="static/images/achievement/dinkes.jpeg" class="img-fluid achievements" alt="Dinkes DKI Jakarta" />
+              </div>
+              <div class="achievements-info">
+                <h4>Dinkes DKI Jakarta</h4>
+                <p>AI Software</p>
+                <a href="static/images/achievement/dinkes.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dinkes DKI Jakarta"><i class="bx bx-plus"></i></a>
+                <!-- <a href="https://jurnalsukabumi.com/2023/07/05/sosialisasi-program-scoppi-bappeda-kota-sukabumi-tampung-usulan-masyarakat/"
+                target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 achievements-item">
+              <div class="achievements-img">
+                <img src="static/images/achievement/bappeda.jpeg" class="img-fluid achievements" alt="BAPEDDA Sukabumi - SCOPPI" />
+              </div>
+              <div class="achievements-info">
+                <h4>BAPPEDA Sukabumi</h4>
+                <p>AI Software</p>
+                <a href="static/images/achievement/bappeda.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Bappeda Sukabumi"><i class="bx bx-plus"></i></a>
+                <!-- <a href="https://jurnalsukabumi.com/2023/07/05/sosialisasi-program-scoppi-bappeda-kota-sukabumi-tampung-usulan-masyarakat/"
+                target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 achievements-item">
+              <div class="achievements-img">
+                <img src="static/images/achievement/bdc.jpeg" class="img-fluid achievements" alt="Big Data Challenge" />
+              </div>
+              <div class="achievements-info">
+                <h4>Big Data Challenge</h4>
+                <p>Competition</p>
+                <a href="static/images/achievement/bdc.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Big Data Challenge"><i class="bx bx-plus"></i></a>
+                <a href="https://timesindonesia.co.id/indonesia-positif/465966/ub-malang-berhasil-menang-dua-kategori-di-satria-data-2023" target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Achievements Section -->
+
+      <!-- Media Section -->
+      <section id="media" class="media section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Highlighted On</h2>
+            <p>Braincore telah beberapa kali diliput oleh media berikut ini</p>
+          </div>
+          <div class="row justify-content-center" data-aos="zoom-in">
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
+              <img src="static/images/highlights/tjp.png" class="img-fluid" alt="The Jakarta Post" />
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
+              <img src="static/images/highlights/rri.png" class="img-fluid" alt="RRI" width="100" />
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
+              <img src="static/images/highlights/times-indonesia.png" class="img-fluid" alt="Time Indonesia" />
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center pt-3">
+              <img src="static/images/highlights/kampus-republika.png" class="img-fluid" alt="Kampus Republika" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======= Frequently Asked Questions Section ======= -->
+      <section id="faq" class="faq section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Frequently Asked Questions</h2>
+            <p>Kumpulan pertanyaan yang sering ditanyakan</p>
+          </div>
+
+          <div class="faq-list">
             <ul>
-              <li>
-                <i class="bx bx-chevron-right"></i> <a href="#">Beranda</a>
+              <li data-aos="fade-up" data-aos-delay="100">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Apa saja layanan yang ditawarkan oleh Braincore? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                  <p>Braincore menyediakan layanan konsultasi AI, pelatihan AI, dan jasa machine learning. Kami fokus pada tiga aspek, yaitu computer vision, natural language processing, dan ML deployment.</p>
+                </div>
               </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a href="#about">Tentang</a>
+
+              <li data-aos="fade-up" data-aos-delay="200">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Siapa yang dapat menggunakan layanan Braincore? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Layanan Braincore dapat digunakan oleh berbagai jenis bisnis atau organisasi, baik yang sudah mempunyai pengalaman dalam penggunaan teknologi AI maupun yang masih awam. Kami siap membantu mengembangkan potensi AI pada
+                    bisnis Anda.
+                  </p>
+                </div>
               </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a href="#services">Layanan</a>
+
+              <li data-aos="fade-up" data-aos-delay="300">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed"
+                  >Apa keunggulan dari layanan konsultasi AI yang ditawarkan oleh Braincore? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Layanan konsultasi AI yang ditawarkan oleh Braincore memiliki keunggulan dalam menyediakan solusi AI yang tepat dan efektif untuk kebutuhan bisnis Anda, dengan menggabungkan pengalaman dan pengetahuan yang luas dalam
+                    bidang AI.
+                  </p>
+                </div>
               </li>
-              <li>
-                <i class="bx bx-chevron-right"></i> <a href="#team">Tim</a>
+
+              <li data-aos="fade-up" data-aos-delay="400">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed"
+                  >Apa manfaat dari pelatihan AI yang disediakan oleh Braincore?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Pelatihan AI yang disediakan oleh Braincore dapat membantu meningkatkan kemampuan dan pengetahuan karyawan atau tim Anda dalam penggunaan teknologi AI, sehingga dapat memberikan kontribusi yang lebih besar terhadap
+                    perkembangan bisnis Anda.
+                  </p>
+                </div>
+              </li>
+
+              <li data-aos="fade-up" data-aos-delay="500">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed"
+                  >Apa yang menjadi fokus dari jasa machine learning yang ditawarkan oleh Braincore? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Fokus dari jasa machine learning yang ditawarkan oleh Braincore adalah pada tiga aspek, yaitu computer vision, natural language processing, dan ML deployment, dengan tujuan membantu mengoptimalkan penggunaan teknologi AI
+                    dalam bisnis Anda.
+                  </p>
+                </div>
               </li>
             </ul>
           </div>
+        </div>
+      </section>
+      <!-- End Frequently Asked Questions Section -->
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Layanan Kami</h4>
-            <ul>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a href="#">Data Science</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a href="#">Machine Learning</a>
-              </li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">AI</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">IoT</a></li>
-              <li>
-                <i class="bx bx-chevron-right"></i> <a href="#">Robotika</a>
-              </li>
-            </ul>
+      <section id="service" class="services pt-0">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title mt-5">
+            <h2>Blog</h2>
+            <p>Tulisan dari Blog Braincore</p>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Media Sosial Kami</h4>
-            <p>Kami dapat ditermukan di beberapa platform berikut</p>
-            <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="https://www.instagram.com/braincore.id/" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="card p-4">
+                <div class="card-img">
+                  <img src="static/images/blog/ai.png" alt="Apa itu AI?" class="img-fluid mb-4" style="height: 215px" />
+                </div>
+                <h5>
+                  <a href="blog/apa-itu-ai.html" class="mt-3">Apa itu AI?</a>
+                </h5>
+                <p>
+                  Kecerdasan Buatan, atau sering disingkat AI (Artificial Intelligence), adalah bidang dalam ilmu komputer yang berkaitan dengan pengembangan komputer ....
+                  <a href="blog/apa-itu-ai.html">Read More</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="card p-4">
+                <div class="card-img">
+                  <img src="static/images/blog/marketing.png" alt="Pemanfaatan Machine Learning dalam Marketing" class="img-fluid mb-4" />
+                </div>
+                <h5>
+                  <a href="blog/pemanfaatan-machine-learning-dalam-marketing.html" class="mt-3">Pemanfaatan Machine Learning dalam Marketing</a>
+                </h5>
+                <p>
+                  Marketing atau pemasaran adalah salah satu elemen utama dalam menjalankan usaha yang <i>sustainable</i> .....
+                  <a href="blog/pemanfaatan-machine-learning-dalam-marketing.html">Read More</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="card p-4">
+                <div class="card-img">
+                  <img src="static/images/blog/ai-in-business.jpeg" alt="Meningkatkan Daya Saing UMKM dengan Kecerdasan Buatan (AI)" class="img-fluid mb-4" />
+                </div>
+                <h5>
+                  <a href="blog/pemanfaatan-machine-learning-dalam-marketing.html" class="mt-3">Meningkatkan Daya Saing UMKM dengan Kecerdasan Buatan (AI)</a>
+                </h5>
+                <p>
+                  Usaha Mikro, Kecil, dan Menengah (UMKM) adalah tulang punggung ekonomi di banyak .....
+                  <a href="blog/pemanfaatan-machine-learning-dalam-marketing.html">Read More</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="card p-4">
+                <div class="card-img">
+                  <img src="static/images/blog/ethical-ai.png" alt="Ethical AI: Tantangan dan Solusi" class="img-fluid mb-4" />
+                </div>
+                <h5>
+                  <a href="blog/ethical-ai-tantangan-dan-solusi.html" class="mt-3"> Ethical AI: Tantangan dan Solusi </a>
+                </h5>
+                <p>
+                  Hari ini, kecerdasan buatan (AI) telah menjadi bagian yang tidak terpisahkan dari kehidupan manusia. Dengan kemajuan .....
+                  <a href="blog/ethical-ai-tantangan-dan-solusi.html">Read More</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="card p-4">
+                <div class="card-img">
+                  <img src="static/images/blog/prediksi-dan-peramalan-bisnis-dengan-machine-learning.jpg" alt="Prediksi dan Peramalan Bisnis dengan Machine Learning" class="img-fluid mb-4" />
+                </div>
+                <h5>
+                  <a href="blog/prediksi-dan-peramalan-bisnis-dengan-machine-learning.html" class="mt-3"> Prediksi dan Peramalan Bisnis dengan Machine Learning </a>
+                </h5>
+                <p>
+                  Machine learning telah menjadi teknologi yang menonjol dalam era digital ini .....
+                  <a href="blog/prediksi-dan-peramalan-bisnis-dengan-machine-learning.html">Read More</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="card p-4">
+                <div class="card-img">
+                  <img src="static/images/blog/Chatbot.png" alt="Chatbot: Mendekati Pelanggan dengan Kecerdasan Buatan" class="img-fluid mb-4" />
+                </div>
+                <h5>
+                  <a href="blog/chatbot-mendekati-pelanggan-dengan-kecerdasan-buatan.html" class="mt-3"> Chatbot: Mendekati Pelanggan dengan Kecerdasan Buatan </a>
+                </h5>
+                <p>
+                  Seiring dengan perkembangan teknologi, penggunaan chatbot sebagai alat ...
+                  <a href="blog/chatbot-mendekati-pelanggan-dengan-kecerdasan-buatan.html">Read More</a>
+                </p>
+              </div>
+            </div>
+            <!-- End Card Item -->
+          </div>
+        </div>
+      </section>
+      <!-- End Services Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Kontak</h2>
+            <p>Ada yang ingin disampaikan atau ditanyakan? Silahkan isi form di bawah ini</p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-5 d-flex align-items-stretch">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Location:</h4>
+                  <p>Jl. Letjen S. Parman No.28</p>
+                </div>
+
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>braincore.id@gmail.com</p>
+                </div>
+
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>Call:</h4>
+                  <p>+62 821 2560 9413</p>
+                </div>
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6591830399225!2d106.78929841413706!3d-6.176359362240449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f65f73d4c9cb%3A0x144ec1e5914e9cc3!2sAPL%20Tower%2C%20RT.3%2FRW.5%2C%20Tj.%20Duren%20Sel.%2C%20Kec.%20Grogol%20petamburan%2C%20Kota%20Jakarta%20Barat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2011470!5e0!3m2!1sid!2sid!4v1640794746998!5m2!1sid!2sid"
+                  frameborder="0"
+                  style="border: 0; width: 100%; height: 290px"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+
+            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+              <form action="" method="post" class="php-email-form" netlify>
+                <div class="row">
+                  <div class="form-group col-md-6">
+                    <label for="name">Nama</label>
+                    <input type="text" name="name" class="form-control" id="name" required />
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="name">Email</label>
+                    <input type="email" class="form-control" name="email" id="email" required />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="name">Subjek</label>
+                  <input type="text" class="form-control" name="subject" id="subject" required />
+                </div>
+                <div class="form-group">
+                  <label for="name">Pesan</label>
+                  <textarea class="form-control" name="message" rows="10" required></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Memuat</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Pesan anda telah terkirim. Terima Kasih!</div>
+                </div>
+                <div class="text-center">
+                  <input type="submit" value="Kirim" />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="footer-newsletter">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <h4>Dapatkan Notifikasi Pembaruan</h4>
+              <p>Langganan untuk mendapatkan informasi dan promo menarik dari Braincore!</p>
+              <form action="" method="post" netlify><input type="email" name="email" placeholder="Masukkan Alamat Email" /><input type="submit" value="Langganan" /></form>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="container footer-bottom clearfix">
-      <div class="copyright">
-        &copy; Copyright 2023 <strong><span>Braincore.id</span></strong>. All Rights Reserved
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h6>Braincore.id</h6>
+              <p>PT. ALGONACCI SOBAT NUSANTARA</p>
+              <br />
+              <p>
+                <span>Jl. Letjen S. Parman No.28</span> <br />
+                Grogol Petamburan <br />
+                Kota Jakarta Barat <br />
+                Daerah Khusus Ibukota Jakarta 11470<br /><br />
+                <strong>Phone:</strong> +62 821 2560 9413<br />
+                <strong>Email:</strong> braincore.id@gmail.com<br />
+              </p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Pintasan</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Beranda</a></li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#about">Tentang</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#services">Layanan</a>
+                </li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#team">Tim</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Layanan Kami</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Data Science</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Machine Learning</a>
+                </li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">AI</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">IoT</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Robotika</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Media Sosial Kami</h4>
+              <p>Kami dapat ditermukan di beberapa platform berikut</p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/braincore.id/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </footer>
-  <!-- End Footer -->
 
-  <div id="preloader"></div>
+      <div class="container footer-bottom clearfix">
+        <div class="copyright">
+          &copy; Copyright 2023 <strong><span>Braincore.id</span></strong
+          >. All Rights Reserved
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
 
-  <!-- Vendor JS Files -->
-  <script src="static/vendor/aos/aos.js"></script>
-  <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="static/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="static/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="static/vendor/waypoints/noframework.waypoints.js"></script>
-  <!-- <script src="static/vendor/php-email-form/validate.js"></script> -->
+    <div id="preloader"></div>
 
-  <!-- Template Main JS File -->
-  <script src="static/js/about.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="static/vendor/aos/aos.js"></script>
+    <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="static/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="static/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="static/vendor/waypoints/noframework.waypoints.js"></script>
+    <!-- <script src="static/vendor/php-email-form/validate.js"></script> -->
 
-  <!-- Dialogflow -->
-  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
-  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-  <df-messenger chat-icon="https://raw.githubusercontent.com/algonacci/Free-CDN/main/TRAVBOT_FULL.png" chat-title="Zira"
-    agent-id="a609255f-e079-4780-91a6-2ad22d4a5e68" language-code="id"></df-messenger>
-  <script>
-    $(document).ready(function () {
-      window.addEventListener("dfMessengerLoaded", function (event) {
-        $r1 = document.querySelector("df-messenger");
-        $r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
-        $r3 = $r2.shadowRoot.querySelector("df-messenger-user-input"); //for other mods
-        var sheet = new CSSStyleSheet();
-        // manage box height from here
-        sheet.replaceSync(
-          `div.chat-wrapper[opened="true"] { height: 480px }`
-        );
-        $r2.shadowRoot.adoptedStyleSheets = [sheet];
+    <!-- Template Main JS File -->
+    <script src="static/js/about.js"></script>
+
+    <!-- Dialogflow -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger chat-icon="https://raw.githubusercontent.com/algonacci/Free-CDN/main/TRAVBOT_FULL.png" chat-title="Zira" agent-id="a609255f-e079-4780-91a6-2ad22d4a5e68" language-code="id"></df-messenger>
+    <script>
+      $(document).ready(function () {
+        window.addEventListener("dfMessengerLoaded", function (event) {
+          $r1 = document.querySelector("df-messenger");
+          $r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
+          $r3 = $r2.shadowRoot.querySelector("df-messenger-user-input"); //for other mods
+          var sheet = new CSSStyleSheet();
+          // manage box height from here
+          sheet.replaceSync(`div.chat-wrapper[opened="true"] { height: 480px }`);
+          $r2.shadowRoot.adoptedStyleSheets = [sheet];
+        });
       });
-    });
-    const portfolioLightbox = GLightbox({
-      selector: ".portfolio-lightbox",
-    });
-  </script>
-</body>
-
+      const portfolioLightbox = GLightbox({
+        selector: ".portfolio-lightbox",
+      });
+    </script>
+  </body>
 </html>
