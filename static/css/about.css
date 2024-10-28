@@ -2006,3 +2006,62 @@ section {
 #header-blog .logo img {
   max-height: 40px;
 }
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #37517e;
+  border: 1px solid #ccc;
+  padding: 20px;
+  z-index: 9999;
+  border-radius: 15px;
+}
+
+.popup .close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.popup span,
+.popup h2,
+.popup h3,
+.popup h4 {
+  background-color: #37517e;
+  color: #fff;
+}
+
+.popup img {
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto;
+}
+
+#popup-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: none;
+}
+
+.btn-get-started {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px 11px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px 0 0 0;
+  color: #fff;
+  background: #47b2e4;
+}
