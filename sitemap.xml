@@ -114,4 +114,40 @@
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
    </url>
+   <url>
+      <loc>https://braincore.id/blog/kecerdasan-buatan-dan-keamanan-siber</loc>
+      <lastmod>2025-01-13T12:00:00+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://braincore.id/blog/ai-dalam-pertanian-meningkatkan-hasil-dan-efisiensi</loc>
+      <lastmod>2025-01-14T12:00:00+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://braincore.id/blog/bagaimana-recommendation-system-berfungsi-dalam-memberikan-rekomendasi-kepada-pengguna</loc>
+      <lastmod>2025-01-15T12:00:00+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://braincore.id/blog/tools-seorang-data-scientist</loc>
+      <lastmod>2025-01-16T12:00:00+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://braincore.id/blog/bagaimana-ai-melihat-dan-memahami-gambar</loc>
+      <lastmod>2025-01-17T12:00:00+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://braincore.id/blog/menerapkan-computer-vision-dalam-pengenalan-wajah-teknologi-dan-kasus-penggunaan</loc>
+      <lastmod>2025-01-18T12:00:00+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
 </urlset>
