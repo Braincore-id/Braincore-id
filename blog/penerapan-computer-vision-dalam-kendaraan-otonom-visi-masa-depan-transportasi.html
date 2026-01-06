@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != "dataLayer" ? "&l=" + l : "";
+            j.async = true;
+            j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, "script", "dataLayer", "GTM-WGN3M4N");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <!-- Favicons -->
+    <link href="/static/images/favicon.png" rel="icon" />
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet" />
+
+    <!-- Vendor CSS Files -->
+    <link href="/static/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="/static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="/static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link href="/static/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="/static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="/static/css/about.css" rel="stylesheet" />
+
+    <!-- Canonical -->
+    <link rel="canonical"
+        href="https://braincore.id/blog/penerapan-computer-vision-dalam-kendaraan-otonom-visi-masa-depan-transportasi.html" />
+
+    <!-- Meta Robot -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- Meta Keywords -->
+    <meta name="keywords" content="Computer Vision, Kendaraan Otonom, Transportasi, Self-driving Car, AI" />
+
+    <!-- Primary Meta Tags -->
+    <title>Penerapan Computer Vision dalam Kendaraan Otonom: Visi Masa Depan Transportasi</title>
+    <meta name="title" content="Penerapan Computer Vision dalam Kendaraan Otonom: Visi Masa Depan Transportasi" />
+    <meta name="description"
+        content="Bagaimana teknologi Computer Vision memungkinkan kendaraan otonom untuk beroperasi secara mandiri dan aman, membentuk masa depan transportasi yang lebih efisien." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url"
+        content="https://braincore.id/blog/penerapan-computer-vision-dalam-kendaraan-otonom-visi-masa-depan-transportasi.html" />
+    <meta property="og:title"
+        content="Penerapan Computer Vision dalam Kendaraan Otonom: Visi Masa Depan Transportasi" />
+    <meta property="og:description"
+        content="Bagaimana teknologi Computer Vision memungkinkan kendaraan otonom untuk beroperasi secara mandiri dan aman, membentuk masa depan transportasi yang lebih efisien." />
+    <meta property="og:image"
+        content="https://braincore.id/static/images/blog/penerapan-computer-vision-dalam-kendaraan-otonom-visi-masa-depan-transportasi.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url"
+        content="https://braincore.id/blog/penerapan-computer-vision-dalam-kendaraan-otonom-visi-masa-depan-transportasi.html" />
+    <meta property="twitter:title"
+        content="Penerapan Computer Vision dalam Kendaraan Otonom: Visi Masa Depan Transportasi" />
+    <meta property="twitter:description"
+        content="Bagaimana teknologi Computer Vision memungkinkan kendaraan otonom untuk beroperasi secara mandiri dan aman, membentuk masa depan transportasi yang lebih efisien." />
+    <meta property="twitter:image"
+        content="https://braincore.id/static/images/blog/penerapan-computer-vision-dalam-kendaraan-otonom-visi-masa-depan-transportasi.png" />
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WGN3M4N" height="0" width="0"
+            style="display: none; visibility: hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- ======= Header ======= -->
+    <header id="header-blog" class="fixed-top header-blog-scrolled">
+        <div class="container d-flex align-items-center">
+            <a href="/index.html"><img style="margin-right: 0.75rem; width: 45px" src="/static/images/braincore.png"
+                    alt="Braincore" /></a>
+            <h2 class="logo me-auto"><a href="/">Braincore.id</a></h2>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li>
+                        <a class="nav-link scrollto" href="/#hero">Beranda</a>
+                    </li>
+                    <li><a class="nav-link scrollto" href="/#about">Tentang</a></li>
+                    <li><a class="nav-link scrollto" href="/#services">Layanan</a></li>
+                    <li>
+                        <a class="nav-link scrollto" href="/#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="nav-link scrollto" href="https://braincore.id/consultation"
+                            target="_blank">Konsultasi</a>
+                    </li>
+                    <li><a class="nav-link scrollto" href="/#team">Tim</a></li>
+                    <li>
+                        <a class="nav-link scrollto" href="/#achievements">Pencapaian</a>
+                    </li>
+
+                    <li><a class="nav-link scrollto" href="/#contact">Kontak</a></li>
+                    <li><a class="nav-link scrollto" href="/blog.html">Blog</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <main id="main">
+        <section class="container mt-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Blog Post -->
+                    <article class="card mb-4">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <div class="card-img text-center">
+                                    <img src="/static/images/blog/penerapan-computer-vision-dalam-kendaraan-otonom-visi-masa-depan-transportasi.png"
+                                        alt="Computer Vision dalam Kendaraan Otonom" class="img-fluid mb-4 mt-5" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title">Penerapan Computer Vision dalam Kendaraan Otonom: Visi Masa Depan
+                                Transportasi</h1>
+
+                            <h4 class="mt-4">Pengantar</h4>
+                            <p>
+                                Perkembangan teknologi saat ini terus berinovasi dan menghasilkan berbagai penemuan baru
+                                yang memberikan berbagai kemudahan dalam kehidupan kita. Salah satu teknologi yang
+                                perlahan mulai diterapkan adalah Computer Vision. Teknologi ini membantu manusia dalam
+                                mengenali objek, memproses gambar, dan menginterpretasi data lainnya. Kemajuan dalam
+                                bidang komputasi dan teknologi ini sangat berpotensi untuk diaplikasikan pada dunia
+                                transportasi, yaitu menciptakan kendaraan otonom. Kendaraan otonom adalah kendaraan yang
+                                sepenuhnya dilengkapi oleh teknologi yang memungkinkan kendaraan dapat beroperasi secara
+                                mandiri tanpa pengawasan manusia.
+                            </p>
+
+                            <h4 class="mt-4">Fitur Computer Vision pada Kendaraan Otonom</h4>
+                            <p>
+                                Dengan penerapan Computer Vision dalam kendaraan otonom, visi masa depan transportasi
+                                yang semakin canggih dan aman dapat terwujud. Berbagai fitur canggih yang dibawa oleh
+                                Computer Vision dapat membantu kendaraan otonom dalam mengenali jalanan, menghindari
+                                rintangan, dan memprediksi situasi di sekitarnya.
+                            </p>
+                            <ul>
+                                <li><strong>Lane Departure Warning Systems (LDWS):</strong> Salah satu fitur yang dapat
+                                    diaplikasikan adalah LDWS yang memungkinkan kendaraan untuk mengenali pergerakan
+                                    jalur atau garis yang ada pada jalan. Jika kendaraan bergerak melebihi jalur yang
+                                    ditentukan, LDWS akan memberikan peringatan kepada pengemudi dan bahkan secara
+                                    otomatis dapat mengontrol kendaraan kembali ke jalur yang seharusnya.</li>
+                                <li><strong>Objek dan Jarak Deteksi:</strong> Selain itu, Computer Vision juga dapat
+                                    digunakan untuk mendeteksi jarak dan kecepatan kendaraan di depan, sehingga dapat
+                                    memberikan peringatan jika terjadi potensi tabrakan. Fitur ini sangat membantu dalam
+                                    menghindari kecelakaan yang disebabkan oleh kesalahan pengemudi.</li>
+                                <li><strong>Monitoring Penumpang dan Keadaan Sekitar:</strong> Pemanfaatan Computer
+                                    Vision dalam kendaraan otonom juga dapat membantu pengemudi untuk memantau keadaan
+                                    di dalam maupun di luar kendaraan. Misalnya, jika ada penumpang yang mengalami
+                                    kecelakaan atau sakit, kendaraan dapat secara otomatis menghubungi layanan darurat
+                                    dan memberikan informasi tentang lokasi dan keadaan penumpang.</li>
+                            </ul>
+
+                            <h4 class="mt-4">Kesimpulan</h4>
+                            <p>
+                                Dengan penerapan Computer Vision dalam kendaraan otonom, visi masa depan transportasi
+                                yang lebih aman, efisien, dan nyaman dapat terwujud. Namun, tentunya masih diperlukan
+                                regulasi yang ketat dan pengembangan teknologi yang terus berkembang untuk mencapai
+                                tujuan tersebut. Jika Anda ingin menjadi bagian dari revolusi transportasi masa depan,
+                                <a href="https://braincore.id">Braincore.id</a> dapat menjadi mitra pengembang teknologi
+                                AI Anda. Mari berkolaborasi untuk menciptakan solusi mobilitas cerdas yang aman dan
+                                efisien. Jangan ragu untuk <a href="https://braincore.id/consultation"
+                                    target="_blank">berkonsultasi</a> dengan tim ahli kami untuk mewujudkan visi Anda.
+                            </p>
+                        </div>
+                        <div class="card-footer text-muted">
+                            Dipost 6 Januari 2026 oleh
+                            <a href="https://www.linkedin.com/in/dian-alhusari-2500b71b6" target="_blank">Dian
+                                Alhusari</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="footer-newsletter">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h4>Dapatkan Notifikasi Pembaruan</h4>
+                        <p>
+                            Langganan untuk mendapatkan informasi dan promo menarik dari
+                            Braincore!
+                        </p>
+                        <form action="" method="post" netlify>
+                            <input type="email" name="email" placeholder="Masukkan Alamat Email" /><input type="submit"
+                                value="Langganan" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h6>Braincore.id</h6>
+                        <p>
+                            <span>Jl. Letjen S. Parman No.28</span> <br />
+                            Grogol Petamburan <br />
+                            Kota Jakarta Barat <br />
+                            Daerah Khusus Ibukota Jakarta 11470<br /><br />
+                            <strong>Phone:</strong> +62 812 9985 1170<br />
+                            <strong>Email:</strong> braincore.id@gmail.com<br />
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Pintasan</h4>
+                        <ul>
+                            <li>
+                                <i class="bx bx-chevron-right"></i> <a href="#">Beranda</a>
+                            </li>
+                            <li>
+                                <i class="bx bx-chevron-right"></i>
+                                <a href="#about">Tentang</a>
+                            </li>
+                            <li>
+                                <i class="bx bx-chevron-right"></i>
+                                <a href="#services">Layanan</a>
+                            </li>
+                            <li>
+                                <i class="bx bx-chevron-right"></i> <a href="#team">Tim</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Layanan Kami</h4>
+                        <ul>
+                            <li>
+                                <i class="bx bx-chevron-right"></i>
+                                <a href="#">Data Science</a>
+                            </li>
+                            <li>
+                                <i class="bx bx-chevron-right"></i>
+                                <a href="#">Machine Learning</a>
+                            </li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">AI</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">IoT</a></li>
+                            <li>
+                                <i class="bx bx-chevron-right"></i> <a href="#">Robotika</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Media Sosial Kami</h4>
+                        <p>Kami dapat ditermukan di beberapa platform berikut</p>
+                        <div class="social-links mt-3">
+                            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                            <a href="https://www.instagram.com/braincore.id/" class="instagram"><i
+                                    class="bx bxl-instagram"></i></a>
+                            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container footer-bottom clearfix">
+            <div class="copyright">
+                &copy; Copyright 2026 <strong><span>Braincore.id</span></strong>. All Rights Reserved
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="/static/vendor/aos/aos.js"></script>
+    <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/static/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="/static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="/static/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="/static/vendor/waypoints/noframework.waypoints.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="/static/js/about.js"></script>
+</body>
+
+</html>

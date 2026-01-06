@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != "dataLayer" ? "&l=" + l : "";
+            j.async = true;
+            j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, "script", "dataLayer", "GTM-WGN3M4N");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <!-- Favicons -->
+    <link href="/static/images/favicon.png" rel="icon" />
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet" />
+
+    <!-- Vendor CSS Files -->
+    <link href="/static/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="/static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="/static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link href="/static/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="/static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="/static/css/about.css" rel="stylesheet" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://braincore.id/blog/mendeteksi-anomali-dengan-computer-vision.html" />
+
+    <!-- Meta Robot -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- Meta Keywords -->
+    <meta name="keywords" content="Computer Vision, Deteksi Anomali, Keamanan, Kualitas Produk, AI" />
+
+    <!-- Primary Meta Tags -->
+    <title>Mendeteksi Anomali dengan Computer Vision: Solusi Keamanan dan Kualitas Modern</title>
+    <meta name="title" content="Mendeteksi Anomali dengan Computer Vision: Solusi Keamanan dan Kualitas Modern" />
+    <meta name="description"
+        content="Pemanfaatan kecerdasan buatan dari computer vision untuk mendeteksi anomali secara efisien dan akurat demi meningkatkan keamanan dan kualitas." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://braincore.id/blog/mendeteksi-anomali-dengan-computer-vision.html" />
+    <meta property="og:title"
+        content="Mendeteksi Anomali dengan Computer Vision: Solusi Keamanan dan Kualitas Modern" />
+    <meta property="og:description"
+        content="Pemanfaatan kecerdasan buatan dari computer vision untuk mendeteksi anomali secara efisien dan akurat demi meningkatkan keamanan dan kualitas." />
+    <meta property="og:image"
+        content="https://braincore.id/static/images/blog/mendeteksi-anomali-dengan-computer-vision.jpeg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://braincore.id/blog/mendeteksi-anomali-dengan-computer-vision.html" />
+    <meta property="twitter:title"
+        content="Mendeteksi Anomali dengan Computer Vision: Solusi Keamanan dan Kualitas Modern" />
+    <meta property="twitter:description"
+        content="Pemanfaatan kecerdasan buatan dari computer vision untuk mendeteksi anomali secara efisien dan akurat demi meningkatkan keamanan dan kualitas." />
+    <meta property="twitter:image"
+        content="https://braincore.id/static/images/blog/mendeteksi-anomali-dengan-computer-vision.jpeg" />
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WGN3M4N" height="0" width="0"
+            style="display: none; visibility: hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- ======= Header ======= -->
+    <header id="header-blog" class="fixed-top header-blog-scrolled">
+        <div class="container d-flex align-items-center">
+            <a href="/index.html"><img style="margin-right: 0.75rem; width: 45px" src="/static/images/braincore.png"
+                    alt="Braincore" /></a>
+            <h2 class="logo me-auto"><a href="/">Braincore.id</a></h2>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li>
+                        <a class="nav-link scrollto" href="/#hero">Beranda</a>
+                    </li>
+                    <li><a class="nav-link scrollto" href="/#about">Tentang</a></li>
+                    <li><a class="nav-link scrollto" href="/#services">Layanan</a></li>
+                    <li>
+                        <a class="nav-link scrollto" href="/#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="nav-link scrollto" href="https://braincore.id/consultation"
+                            target="_blank">Konsultasi</a>
+                    </li>
+                    <li><a class="nav-link scrollto" href="/#team">Tim</a></li>
+                    <li>
+                        <a class="nav-link scrollto" href="/#achievements">Pencapaian</a>
+                    </li>
+
+                    <li><a class="nav-link scrollto" href="/#contact">Kontak</a></li>
+                    <li><a class="nav-link scrollto" href="/blog.html">Blog</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <main id="main">
+        <section class="container mt-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Blog Post -->
+                    <article class="card mb-4">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <div class="card-img text-center">
+                                    <img src="/static/images/blog/mendeteksi-anomali-dengan-computer-vision.jpeg"
+                                        alt="Mendeteksi Anomali dengan Computer Vision" class="img-fluid mb-4 mt-5" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title">Mendeteksi Anomali dengan Computer Vision</h1>
+
+                            <h4 class="mt-4">Pengantar</h4>
+                            <p>
+                                Computer vision, salah satu cabang ilmu dari artificial intelligence (AI), telah
+                                berkembang dengan pesat dalam beberapa tahun terakhir. Kemudahan dan akurasi dalam
+                                mendeteksi dan menginterpretasi data visual membuat teknologi computer vision menjadi
+                                sangat berguna dalam berbagai bidang, termasuk keamanan dan kualitas suatu objek. Dengan
+                                memanfaatkan kecerdasan buatan dari computer vision, kita dapat mendeteksi anomali
+                                dengan lebih efisien dan akurat, yang sesuai dengan kebutuhan keamanan dan kualitas di
+                                masa kini.
+                            </p>
+
+                            <h4 class="mt-4">Pentingnya Mendeteksi Anomali</h4>
+                            <p>
+                                Apakah Anda pernah merasa cemas tentang keamanan lingkungan sekitar? Atau mungkin Anda
+                                khawatir tentang kualitas produk yang Anda konsumsi? Dengan teknologi computer vision,
+                                kini kita dapat lebih tenang dalam hal tersebut. Berkat kemampuannya dalam menganalisis
+                                dan mendeteksi data visual, computer vision dapat membantu kita dalam mengamankan
+                                lingkungan dan memastikan kualitas produk yang kita gunakan sehari-hari.
+                            </p>
+
+                            <h4 class="mt-4">Penerapan dalam Keamanan</h4>
+                            <p>
+                                Salah satu contoh penggunaan computer vision untuk keamanan adalah dalam pengawasan lalu
+                                lintas. Kamera CCTV yang dilengkapi dengan teknologi computer vision dapat memantau dan
+                                mendeteksi anomali seperti kecelakaan atau kejadian mencurigakan di jalan raya. Dengan
+                                begitu, petugas keamanan dapat segera memberikan tindakan yang diperlukan untuk menjaga
+                                keamanan lalu lintas.
+                            </p>
+                            <p>
+                                Selain itu, computer vision juga dapat digunakan untuk mendeteksi barang-barang yang
+                                mencurigakan di bandara atau stasiun kereta api. Dengan melakukan analisis terhadap
+                                citra yang diambil oleh kamera keamanan, computer vision dapat mengenali benda-benda
+                                yang tidak biasa atau bahkan berbahaya, seperti senjata atau bahan peledak. Hal ini
+                                dapat membantu petugas keamanan dalam menjaga keamanan masyarakat dari ancaman
+                                terorisme.
+                            </p>
+
+                            <h4 class="mt-4">Penerapan dalam Kualitas Produk</h4>
+                            <p>
+                                Selain untuk keamanan, teknologi computer vision juga dapat dimanfaatkan untuk
+                                memastikan kualitas produk yang dikonsumsi. Dengan menggunakan kamera dan algoritma
+                                computer vision, kita dapat mengidentifikasi cacat atau kerusakan pada produk yang
+                                diproduksi secara massal. Dengan begitu, produsen dapat segera melakukan tindakan
+                                perbaikan untuk memastikan setiap produk yang dihasilkan berkualitas tinggi dan aman
+                                untuk digunakan oleh konsumen.
+                            </p>
+
+                            <h4 class="mt-4">Kesimpulan</h4>
+                            <p>
+                                Dengan memanfaatkan kecerdasan buatan dari computer vision, kita dapat mendeteksi
+                                anomali dengan lebih efisien dan akurat, yang sesuai dengan kebutuhan keamanan dan
+                                kualitas di masa kini. Hal ini membawa manfaat yang besar untuk masyarakat dan dapat
+                                membantu meminimalkan risiko kejadian yang tidak diinginkan. Jika Anda menginginkan
+                                sistem deteksi cerdas yang mampu mengidentifikasi anomali secara real-time, <a
+                                    href="https://braincore.id">Braincore.id</a> siap membantu Anda. Jangan ragu untuk
+                                mendiskusikan kebutuhan Anda melalui <a href="https://braincore.id/consultation"
+                                    target="_blank">konsultasi</a> bersama tim kami yang berpengalaman dalam
+                                implementasi AI dan Computer Vision.
+                            </p>
+                        </div>
+                        <div class="card-footer text-muted">
+                            Dipost 6 Januari 2026 oleh
+                            <a href="https://algonacci.github.io/" target="_blank">Eric Julianto</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="footer-newsletter">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h4>Dapatkan Notifikasi Pembaruan</h4>
+                        <p>
+                            Langganan untuk mendapatkan informasi dan promo menarik dari
+                            Braincore!
+                        </p>
+                        <form action="" method="post" netlify>
+                            <input type="email" name="email" placeholder="Masukkan Alamat Email" /><input type="submit"
+                                value="Langganan" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h6>Braincore.id</h6>
+                        <p>
+                            <span>Jl. Letjen S. Parman No.28</span> <br />
+                            Grogol Petamburan <br />
+                            Kota Jakarta Barat <br />
+                            Daerah Khusus Ibukota Jakarta 11470<br /><br />
+                            <strong>Phone:</strong> +62 812 9985 1170<br />
+                            <strong>Email:</strong> braincore.id@gmail.com<br />
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Pintasan</h4>
+                        <ul>
+                            <li>
+                                <i class="bx bx-chevron-right"></i> <a href="#">Beranda</a>
+                            </li>
+                            <li>
+                                <i class="bx bx-chevron-right"></i>
+                                <a href="#about">Tentang</a>
+                            </li>
+                            <li>
+                                <i class="bx bx-chevron-right"></i>
+                                <a href="#services">Layanan</a>
+                            </li>
+                            <li>
+                                <i class="bx bx-chevron-right"></i> <a href="#team">Tim</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Layanan Kami</h4>
+                        <ul>
+                            <li>
+                                <i class="bx bx-chevron-right"></i>
+                                <a href="#">Data Science</a>
+                            </li>
+                            <li>
+                                <i class="bx bx-chevron-right"></i>
+                                <a href="#">Machine Learning</a>
+                            </li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">AI</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">IoT</a></li>
+                            <li>
+                                <i class="bx bx-chevron-right"></i> <a href="#">Robotika</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Media Sosial Kami</h4>
+                        <p>Kami dapat ditermukan di beberapa platform berikut</p>
+                        <div class="social-links mt-3">
+                            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                            <a href="https://www.instagram.com/braincore.id/" class="instagram"><i
+                                    class="bx bxl-instagram"></i></a>
+                            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container footer-bottom clearfix">
+            <div class="copyright">
+                &copy; Copyright 2026 <strong><span>Braincore.id</span></strong>. All Rights Reserved
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="/static/vendor/aos/aos.js"></script>
+    <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/static/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="/static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="/static/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="/static/vendor/waypoints/noframework.waypoints.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="/static/js/about.js"></script>
+</body>
+
+</html>

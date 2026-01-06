@@ -297,26 +297,26 @@
   });
 })();
 
-document.addEventListener("DOMContentLoaded", function () {
-  if (sessionStorage.getItem("popupShown") !== "true") {
-    document.getElementById("popup-backdrop").style.display = "block";
-    document.getElementById("popup").style.display = "block";
+// document.addEventListener("DOMContentLoaded", function () {
+//   if (sessionStorage.getItem("popupShown") !== "true") {
+//     document.getElementById("popup-backdrop").style.display = "block";
+//     document.getElementById("popup").style.display = "block";
 
-    setTimeout(function () {
-      document.getElementById("popup-backdrop").style.opacity = 1;
-      document.getElementById("popup").style.opacity = 1;
-    }, 10);
-  }
+//     setTimeout(function () {
+//       document.getElementById("popup-backdrop").style.opacity = 1;
+//       document.getElementById("popup").style.opacity = 1;
+//     }, 10);
+//   }
 
-  document.querySelectorAll(".close").forEach(function (closeBtn) {
-    closeBtn.addEventListener("click", function () {
-      document.getElementById("popup-backdrop").style.opacity = 0;
-      document.getElementById("popup").style.opacity = 0;
+//   document.querySelectorAll(".close").forEach(function (closeBtn) {
+//     closeBtn.addEventListener("click", function () {
+//       document.getElementById("popup-backdrop").style.opacity = 0;
+//       document.getElementById("popup").style.opacity = 0;
 
-      setTimeout(function () {
-        document.getElementById("popup-backdrop").style.display = "none";
-        document.getElementById("popup").style.display = "none";
-      }, 1000);
-    });
-  });
-});
+//       setTimeout(function () {
+//         document.getElementById("popup-backdrop").style.display = "none";
+//         document.getElementById("popup").style.display = "none";
+//       }, 1000);
+//     });
+//   });
+// });
