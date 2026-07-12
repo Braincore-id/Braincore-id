@@ -10,6 +10,9 @@
 .publication-hero {
   position: relative;
   overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
   padding: 150px 0 96px;
   background:
     radial-gradient(circle at top left, rgba(71, 178, 228, 0.3), transparent 34%),
@@ -163,6 +166,18 @@
   border: 1px solid rgba(255, 255, 255, 0.15);
   box-shadow: 0 24px 60px rgba(9, 17, 31, 0.28);
   backdrop-filter: blur(16px);
+}
+
+.publication-console-logo {
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.publication-console-logo img {
+  max-width: 240px;
+  height: auto;
+  opacity: 0.95;
+  filter: brightness(1.1);
 }
 
 .publication-console-top {
@@ -499,4 +514,176 @@
     top: 24px;
     left: 24px;
   }
+}
+
+/* ======= Publication List Cards ======= */
+.publication-card {
+  height: 100%;
+  padding: 32px;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0 18px 44px rgba(21, 38, 70, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.publication-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 26px 56px rgba(21, 38, 70, 0.14);
+}
+
+.publication-card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.publication-year {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 14px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #37517e, #2b4a82);
+  color: #fff;
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.publication-type {
+  font-size: 13px;
+  font-weight: 600;
+  color: #47b2e4;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.publication-card-title {
+  margin-bottom: 14px;
+  font-size: 20px;
+  line-height: 1.45;
+}
+
+.publication-card-title a {
+  color: #37517e;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.publication-card-title a:hover {
+  color: #47b2e4;
+}
+
+.publication-card-authors {
+  margin-bottom: 16px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #6d7d98;
+}
+
+.publication-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  margin-bottom: 20px;
+  padding-top: 16px;
+  border-top: 1px solid #eef2f8;
+  font-size: 13px;
+  color: #7a8ba5;
+}
+
+.publication-card-meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.publication-card-meta i {
+  font-size: 15px;
+}
+
+.publication-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.publication-btn-pdf,
+.publication-btn-scholar {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 18px;
+  border-radius: 999px;
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.publication-btn-pdf {
+  background: #fdf2f1;
+  color: #d14343;
+  border: 1px solid rgba(209, 67, 67, 0.16);
+}
+
+.publication-btn-pdf:hover {
+  background: #d14343;
+  color: #fff;
+}
+
+.publication-btn-scholar {
+  background: #f2f7fc;
+  color: #37517e;
+  border: 1px solid rgba(55, 81, 126, 0.14);
+}
+
+.publication-btn-scholar:hover {
+  background: #37517e;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .publication-card {
+    padding: 24px;
+  }
+
+  .publication-card-title {
+    font-size: 18px;
+  }
+}
+
+/* ======= Year Divider ======= */
+.publication-year-divider {
+  display: flex;
+  align-items: center;
+  margin: 16px 0 12px;
+}
+
+.publication-year-divider span {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 22px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #37517e, #1d3156);
+  color: #fff;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  box-shadow: 0 8px 24px rgba(29, 49, 86, 0.22);
+}
+
+.publication-year-divider::after {
+  content: "";
+  flex: 1;
+  height: 2px;
+  margin-left: 16px;
+  background: linear-gradient(to right, rgba(55, 81, 126, 0.3), transparent);
+  border-radius: 2px;
+}
+
+.publication-year-divider:first-child {
+  margin-top: 0;
 }
