@@ -133,7 +133,7 @@
 
 /* ======= Highlight Card ======= */
 .affiliate-card-highlight {
-  padding: 28px;
+  padding: 36px;
   border-radius: 28px;
   background: rgba(8, 20, 41, 0.44);
   border: 1px solid rgba(16, 185, 129, 0.16);
@@ -180,14 +180,14 @@
 }
 
 .affiliate-pct {
-  font-size: 56px;
+  font-size: 80px;
   font-weight: 800;
   color: #fff;
   line-height: 1;
 }
 
 .affiliate-label {
-  font-size: 16px;
+  font-size: 18px;
   color: rgba(255, 255, 255, 0.7);
   font-weight: 500;
 }
@@ -495,7 +495,7 @@
   }
 
   .affiliate-pct {
-    font-size: 44px;
+    font-size: 56px;
   }
 
   .affiliate-tier-pct {
